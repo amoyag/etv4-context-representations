@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "freeze_id": "E0-v1-20261110",
+  "stage": "E0",
+  "status": "frozen_preinference",
+  "created_at": "2026-11-10T13:59:50.350591+00:00",
+  "actor": "Codex /root; standalone E0 coordinator",
+  "review": "reviews/design-review.md",
+  "reviewer": "Codex subagent /root/e0_design_review; default agent acting as scientific design reviewer",
+  "open_critical": 0,
+  "open_major": 0,
+  "no_model_execution": true,
+  "amendment_rule": "Preserve this manifest and receipt before any versioned correction; review affected dependencies. Later stages not activated.",
+  "files": [
+    {
+      "path": "data/derived/construct-registry.tsv",
+      "sha256": "6d75e53dfccc4b0f6adb953ccad2c752fae20ddc87c42449e10645e3a16e082c"
+    },
+    {
+      "path": "data/derived/measurement-registry.tsv",
+      "sha256": "546e655f03a6ff1cb9bb1baeae06fce8cf6c697c16629a822ae319050dba09db"
+    },
+    {
+      "path": "data/derived/model-inputs.json",
+      "sha256": "d12ba078a186c2be2ccba53f8575ec2e489affd5eedb0ad5578c6945fbf766fd"
+    },
+    {
+      "path": "data/derived/prompt-panel.json",
+      "sha256": "832a53b03bacd8d1970eb7635b85fa03acfc7ecf2fe33ececf8c515987eaa288"
+    },
+    {
+      "path": "data/derived/prompt-selection.json",
+      "sha256": "64a1d39a2836c85997fbdcecb210765a1ec3ae6286d13c98e17396a230ca274a"
+    },
+    {
+      "path": "data/derived/source-reconciliation.json",
+      "sha256": "5f1c051bdb2393d675128ff67ba02615234866bd3fbc6afd5b731f754bd069c0"
+    },
+    {
+      "path": "data/raw/E0-20261110/P43268.json",
+      "sha256": "cf0c49498b0c61e3652036bb0b6d817adb2192f45476a941e2618ead1babfb13"
+    },
+    {
+      "path": "data/raw/E0-20261110/control-candidates.json",
+      "sha256": "3f49b27a37f4ec6cae93b031209e0892ff0eba719b61f89cf215695e71d8cb1f"
+    },
+    {
+      "path": "data/raw/E0-20261110/homolog-candidates.json",
+      "sha256": "7b6f14e632685be9582ef3174dbd450ee8202a1f404773afb0e0a8fd8c2d5573"
+    },
+    {
+      "path": "data/raw/E0-20261110/main-pdftotext-layout.txt",
+      "sha256": "25e8e621535f0be0766494b254381601166ec449a3240fffb05b69c96fe755e4"
+    },
+    {
+      "path": "data/raw/E0-20261110/supplement-S1-pdftotext-raw.txt",
+      "sha256": "e009575baffd83b10e43c72453a3931c66c4780ab41d0a53a0953ccebc762b0a"
+    },
+    {
+      "path": "data/raw/E0-20261110/supplement-pdftotext-layout.txt",
+      "sha256": "e2af2abc878cd02a14622d860c6c68b9c374746d5da562853687d32673b87f69"
+    },
+    {
+      "path": "design/E0-selection-rules.md",
+      "sha256": "13d7c66eab5450c63fb4cf53cda1c281ccbef07853edf37ea015ff71d549f234"
+    },
+    {
+      "path": "design/protocol-v1.md",
+      "sha256": "638d1e095a0dd9f0fe311ff2d119c590cedf8431a5fb33643527bf87b1870069"
+    },
+    {
+      "path": "design/qualification-inputs.json",
+      "sha256": "dddcc0b7634cd752ba0b18bbfd804110385158aef5d29ecfa3ab9dc237814248"
+    },
+    {
+      "path": "design/run-plan.json",
+      "sha256": "dce8332a6f3831fe5bc46d1fab49444225aa1c17e8b6e02d146a4ca2572517bc"
+    },
+    {
+      "path": "models/profam-1/.hydra/config.yaml",
+      "sha256": "46c017cf10446f0c820940783f51167ec98107d5376bc8df7bb490a051f31e42"
+    },
+    {
+      "path": "reviews/design-review.md",
+      "sha256": "d6fa950d523fa22d711e4488baab9f508de2c23e81f84c5d6dfa40de0d86b01a"
+    },
+    {
+      "path": "reviews/e0-review-evidence.json",
+      "sha256": "823bc2ffff40498055d10f69483f0e5b9d3b070e44a4d445ce30548bb90c1641"
+    },
+    {
+      "path": "scripts/prepare_e0.py",
+      "sha256": "584b125a27d22f33b9a6e539da674a7bafdb59d2cd749bbd858240f9a914d8da"
+    },
+    {
+      "path": "scripts/verify_e0.py",
+      "sha256": "7e781ea5fac02d34da09622f17bb126b9f3af3468f8508c4566c75d125d29591"
+    },
+    {
+      "path": "sources/manifest.json",
+      "sha256": "ac642e2ff534ecf7c83fc9d8245c61e1c10ef935a1bbd0639808ffd6f851a13b"
+    },
+    {
+      "path": "sources/novelty-check.md",
+      "sha256": "ad22b3a8b8bdb94692292ff3ae1ff0a57454d7f6fdc7b3b7ef2401f3f0e779be"
+    },
+    {
+      "path": "sources/source-audit.md",
+      "sha256": "573d8576141b09d0d18fd1463808e492bd5be6c026ef94edcdf7bdd36226f0eb"
+    }
+  ]
+}

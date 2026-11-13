@@ -1,0 +1,3215 @@
+{
+  "rules": "design/E0-selection-rules.md",
+  "homologue_candidates": [
+    {
+      "accession": "P41161",
+      "domain_start": 366,
+      "domain_identity": 0.9512195121951219,
+      "full_identity": 0.5137254901960784,
+      "length": 510,
+      "retained": true,
+      "species": "Homo sapiens",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P41164",
+      "domain_start": 333,
+      "domain_identity": 0.9512195121951219,
+      "full_identity": 0.5495867768595041,
+      "length": 477,
+      "retained": true,
+      "species": "Mus musculus",
+      "sequence_version": 1
+    },
+    {
+      "accession": "P50549",
+      "domain_start": 333,
+      "domain_identity": 0.9512195121951219,
+      "full_identity": 0.5475206611570248,
+      "length": 477,
+      "retained": true,
+      "species": "Homo sapiens",
+      "sequence_version": 2
+    },
+    {
+      "accession": "Q2KIC2",
+      "domain_start": 333,
+      "domain_identity": 0.9512195121951219,
+      "full_identity": 0.5516528925619835,
+      "length": 477,
+      "retained": true,
+      "species": "Bos taurus",
+      "sequence_version": 1
+    },
+    {
+      "accession": "Q9CXC9",
+      "domain_start": 366,
+      "domain_identity": 0.9512195121951219,
+      "full_identity": 0.5098039215686274,
+      "length": 510,
+      "retained": true,
+      "species": "Mus musculus",
+      "sequence_version": 1
+    }
+  ],
+  "control_candidates": [
+    {
+      "accession": "O00409",
+      "length": 490,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "O00712",
+      "length": 420,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "O15156",
+      "length": 539,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "O60381",
+      "length": 514,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O60548",
+      "length": 495,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O75475",
+      "length": 530,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O94805",
+      "length": 426,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P04198",
+      "length": 464,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P17023",
+      "length": 458,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P24278",
+      "length": 435,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P26368",
+      "length": 475,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P28347",
+      "length": 426,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P30307",
+      "length": 473,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P35637",
+      "length": 526,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "P40425",
+      "length": 430,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P41225",
+      "length": 446,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P48742",
+      "length": 406,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P50458",
+      "length": 406,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P56270",
+      "length": 477,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P78412",
+      "length": 446,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P78413",
+      "length": 519,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q05D32",
+      "length": 466,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q06945",
+      "length": 474,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q12947",
+      "length": 444,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q13573",
+      "length": 536,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q14188",
+      "length": 446,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q14774",
+      "length": 488,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q14938",
+      "length": 502,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q3KNS6",
+      "length": 432,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q6P2D0",
+      "length": 407,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q6ZMS7",
+      "length": 546,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q6ZNH5",
+      "length": 498,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q7L2R6",
+      "length": 523,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q7Z3I7",
+      "length": 529,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q86U70",
+      "length": 411,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "Q86UD4",
+      "length": 541,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q8N344",
+      "length": 545,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q8N414",
+      "length": 524,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q8N680",
+      "length": 514,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q8N7H5",
+      "length": 531,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q8NDP4",
+      "length": 499,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q8TBK2",
+      "length": 473,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q96BR9",
+      "length": 441,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q96K80",
+      "length": 434,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q96NM4",
+      "length": 488,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9H6I2",
+      "length": 414,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9H8M7",
+      "length": 445,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9NXR8",
+      "length": 418,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9NZV7",
+      "length": 527,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9UEE5",
+      "length": 414,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9UHQ1",
+      "length": 456,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q9UKI9",
+      "length": 436,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9ULM2",
+      "length": 529,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9ULV5",
+      "length": 492,
+      "max_ungapped_domain_identity": 0.18292682926829268,
+      "retained": true
+    },
+    {
+      "accession": "Q9ULX3",
+      "length": 412,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9UM63",
+      "length": 463,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9Y2P0",
+      "length": 537,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9Y5A6",
+      "length": 473,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "A8MTJ6",
+      "length": 420,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O00716",
+      "length": 465,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "O14901",
+      "length": 512,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "O94900",
+      "length": 526,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P10588",
+      "length": 404,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P11161",
+      "length": 476,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P20264",
+      "length": 500,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P24864",
+      "length": 410,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P43694",
+      "length": 442,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P49005",
+      "length": 469,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P49910",
+      "length": 485,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P51449",
+      "length": 518,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P52738",
+      "length": 457,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P57082",
+      "length": 545,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q02930",
+      "length": 508,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q03052",
+      "length": 451,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q05048",
+      "length": 431,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q07869",
+      "length": 468,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q13118",
+      "length": 480,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q13285",
+      "length": 461,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q13547",
+      "length": 482,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q13569",
+      "length": 410,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q14119",
+      "length": 521,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q14814",
+      "length": 521,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q15406",
+      "length": 480,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q15427",
+      "length": 424,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q15583",
+      "length": 401,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q16649",
+      "length": 462,
+      "max_ungapped_domain_identity": 0.18292682926829268,
+      "retained": true
+    },
+    {
+      "accession": "Q16670",
+      "length": 478,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q16676",
+      "length": 465,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q3SYB3",
+      "length": 417,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "Q6NX45",
+      "length": 483,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q6ZN57",
+      "length": 461,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q7L5A3",
+      "length": 538,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q7Z3K6",
+      "length": 550,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q86U06",
+      "length": 439,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q8IZ20",
+      "length": 524,
+      "max_ungapped_domain_identity": 0.18292682926829268,
+      "retained": true
+    },
+    {
+      "accession": "Q8IZC7",
+      "length": 436,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q8N7U7",
+      "length": 411,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q8NAP8",
+      "length": 495,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "Q8NBB4",
+      "length": 408,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q8NFU5",
+      "length": 416,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "Q8TAK5",
+      "length": 448,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q92754",
+      "length": 450,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q96BR6",
+      "length": 464,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q96C00",
+      "length": 473,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q96CB8",
+      "length": 462,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q96DF8",
+      "length": 476,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q96GM5",
+      "length": 515,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q96NG5",
+      "length": 402,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q99592",
+      "length": 522,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "Q99684",
+      "length": 422,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9BSG1",
+      "length": 425,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9BSK1",
+      "length": 485,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9BUI4",
+      "length": 534,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9BZE2",
+      "length": 481,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9BZK7",
+      "length": 514,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q9C0F3",
+      "length": 470,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9HBT8",
+      "length": 521,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q9HCK0",
+      "length": 441,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q9NP87",
+      "length": 494,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9NU39",
+      "length": 408,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9NWS9",
+      "length": 450,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9NXE8",
+      "length": 425,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9UJA5",
+      "length": 497,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9UK99",
+      "length": 471,
+      "max_ungapped_domain_identity": 0.18292682926829268,
+      "retained": true
+    },
+    {
+      "accession": "Q9UKL0",
+      "length": 485,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9UL17",
+      "length": 535,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9UMR3",
+      "length": 447,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q9UNN4",
+      "length": 478,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9UNW9",
+      "length": 492,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9Y5X4",
+      "length": 410,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "A8K8V0",
+      "length": 405,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "O43148",
+      "length": 476,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "O43298",
+      "length": 467,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "O43829",
+      "length": 449,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O60304",
+      "length": 480,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "O60663",
+      "length": 402,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O94864",
+      "length": 414,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "O94888",
+      "length": 489,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "O95947",
+      "length": 436,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P04053",
+      "length": 509,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P05549",
+      "length": 437,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P11831",
+      "length": 508,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P15863",
+      "length": 534,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P17024",
+      "length": 532,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P20265",
+      "length": 443,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P23769",
+      "length": 480,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P23771",
+      "length": 443,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P29558",
+      "length": 406,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P31249",
+      "length": 432,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P35398",
+      "length": 523,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P40424",
+      "length": 430,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P41235",
+      "length": 474,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P50219",
+      "length": 401,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P55895",
+      "length": 527,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P78396",
+      "length": 465,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P78415",
+      "length": 501,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q01094",
+      "length": 437,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q01101",
+      "length": 510,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q02962",
+      "length": 417,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q12800",
+      "length": 502,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": false
+    },
+    {
+      "accession": "Q13356",
+      "length": 520,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q13952",
+      "length": 458,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q14209",
+      "length": 437,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q14584",
+      "length": 549,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q14585",
+      "length": 488,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q15428",
+      "length": 464,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q15561",
+      "length": 434,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q15916",
+      "length": 424,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q16656",
+      "length": 503,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q6P1J9",
+      "length": 531,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q6UWZ7",
+      "length": 409,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q6ZNG0",
+      "length": 422,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q6ZTU2",
+      "length": 488,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q7Z6R9",
+      "length": 452,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q8N720",
+      "length": 491,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q8TAS1",
+      "length": 419,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q92759",
+      "length": 462,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q969J2",
+      "length": 545,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q96H86",
+      "length": 408,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q96JN0",
+      "length": 433,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q96LX8",
+      "length": 424,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q96RI1",
+      "length": 486,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q99594",
+      "length": 435,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9BQA5",
+      "length": 517,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9BTF0",
+      "length": 503,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9BU19",
+      "length": 519,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9BUU2",
+      "length": 404,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9H161",
+      "length": 411,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9H3P2",
+      "length": 528,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9H707",
+      "length": 407,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9HAZ1",
+      "length": 481,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q9HCE5",
+      "length": 456,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9NP62",
+      "length": 436,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9NQZ8",
+      "length": 489,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9NR11",
+      "length": 478,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9UBC0",
+      "length": 465,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9UHH9",
+      "length": 426,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9UHK0",
+      "length": 495,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9UID6",
+      "length": 485,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q9UL49",
+      "length": 500,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9UPG8",
+      "length": 496,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9Y2U9",
+      "length": 406,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9Y4X4",
+      "length": 402,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q9Y5Q8",
+      "length": 519,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9Y6F8",
+      "length": 540,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "A0PJY2",
+      "length": 475,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "A1Z1Q3",
+      "length": 425,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "A6NKF2",
+      "length": 412,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "O14977",
+      "length": 448,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O43929",
+      "length": 436,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O75603",
+      "length": 506,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O95948",
+      "length": 504,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "O96019",
+      "length": 429,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P10073",
+      "length": 491,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P10589",
+      "length": 423,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P10828",
+      "length": 461,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P15976",
+      "length": 413,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P17030",
+      "length": 456,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P26367",
+      "length": 422,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P31260",
+      "length": 410,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P48436",
+      "length": 509,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P49336",
+      "length": 464,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P51513",
+      "length": 507,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P55055",
+      "length": 460,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P55317",
+      "length": 472,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P56282",
+      "length": 527,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q02078",
+      "length": 507,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q12857",
+      "length": 509,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q13360",
+      "length": 481,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q13887",
+      "length": 457,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q14153",
+      "length": 422,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q15291",
+      "length": 538,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q15415",
+      "length": 496,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q15562",
+      "length": 447,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q15696",
+      "length": 482,
+      "max_ungapped_domain_identity": 0.18292682926829268,
+      "retained": true
+    },
+    {
+      "accession": "Q15697",
+      "length": 407,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q15928",
+      "length": 474,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q16254",
+      "length": 413,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q16576",
+      "length": 425,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q6B0I6",
+      "length": 523,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q6DJT9",
+      "length": 500,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q6STE5",
+      "length": 483,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q6UX04",
+      "length": 472,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q6ZN18",
+      "length": 517,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q7L5Y6",
+      "length": 550,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q86W11",
+      "length": 494,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q8N5A5",
+      "length": 531,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q8N5F7",
+      "length": 415,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q8N8E2",
+      "length": 541,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q8NDN9",
+      "length": 531,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q8TBC5",
+      "length": 510,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q8WUU4",
+      "length": 475,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q92481",
+      "length": 460,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q92731",
+      "length": 530,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q969G3",
+      "length": 411,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q96EG3",
+      "length": 531,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q96I25",
+      "length": 401,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q96KN3",
+      "length": 472,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q96NZ1",
+      "length": 517,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q96SY0",
+      "length": 518,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q99958",
+      "length": 501,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q9H0F5",
+      "length": 515,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9H2C1",
+      "length": 402,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9H5V7",
+      "length": 419,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9H5Z6",
+      "length": 455,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9NQL9",
+      "length": 472,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9NSD4",
+      "length": 429,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9NZI7",
+      "length": 540,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": false
+    },
+    {
+      "accession": "Q9UIH9",
+      "length": 416,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9UJL9",
+      "length": 534,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9UK53",
+      "length": 422,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9UK59",
+      "length": 544,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9UKA9",
+      "length": 531,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9UKS7",
+      "length": 526,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9Y2Y4",
+      "length": 487,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9Y3Y4",
+      "length": 419,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q9Y458",
+      "length": 520,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "A9QM74",
+      "length": 516,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "B2RXH2",
+      "length": 506,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "O14771",
+      "length": 459,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "O15178",
+      "length": 435,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "O60806",
+      "length": 448,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "O75528",
+      "length": 432,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O94941",
+      "length": 541,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "O96020",
+      "length": 404,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P05455",
+      "length": 408,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P08651",
+      "length": 508,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P0DJD3",
+      "length": 496,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P13682",
+      "length": 527,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P14651",
+      "length": 431,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P17036",
+      "length": 446,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P23759",
+      "length": 505,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P23760",
+      "length": 479,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P24468",
+      "length": 414,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P29083",
+      "length": 439,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P32780",
+      "length": 548,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P35269",
+      "length": 517,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P35716",
+      "length": 441,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P40426",
+      "length": 434,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P43351",
+      "length": 418,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P49759",
+      "length": 484,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P51608",
+      "length": 486,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P55081",
+      "length": 439,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P55316",
+      "length": 489,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P55347",
+      "length": 436,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P57073",
+      "length": 446,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P59817",
+      "length": 542,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P62508",
+      "length": 458,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P78411",
+      "length": 483,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "Q01196",
+      "length": 453,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q03181",
+      "length": 441,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "Q05519",
+      "length": 484,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q06710",
+      "length": 450,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q13064",
+      "length": 507,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q14541",
+      "length": 408,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q15532",
+      "length": 418,
+      "max_ungapped_domain_identity": 0.10975609756097561,
+      "retained": true
+    },
+    {
+      "accession": "Q15742",
+      "length": 525,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": false
+    },
+    {
+      "accession": "Q16600",
+      "length": 458,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q3YBR2",
+      "length": 411,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q569K4",
+      "length": 471,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q6P9G9",
+      "length": 518,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q6VB84",
+      "length": 417,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q86TJ2",
+      "length": 420,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q8IVP9",
+      "length": 402,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q8IX15",
+      "length": 550,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q8N5Y2",
+      "length": 521,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "Q8NC26",
+      "length": 417,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q8NFW8",
+      "length": 434,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q8TDD2",
+      "length": 431,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q8WUA2",
+      "length": 492,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q8WUB8",
+      "length": 498,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q8WXA9",
+      "length": 508,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q92733",
+      "length": 491,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q92917",
+      "length": 476,
+      "max_ungapped_domain_identity": 0.1951219512195122,
+      "retained": true
+    },
+    {
+      "accession": "Q92925",
+      "length": 531,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q92949",
+      "length": 421,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q92966",
+      "length": 411,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "Q92989",
+      "length": 425,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q96B23",
+      "length": 404,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q96KS0",
+      "length": 407,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q96L50",
+      "length": 414,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q96LT9",
+      "length": 517,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q96N77",
+      "length": 438,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q96PV4",
+      "length": 448,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9BQ87",
+      "length": 522,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9C0J9",
+      "length": 482,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9HAW0",
+      "length": 419,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9HB96",
+      "length": 536,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9NU63",
+      "length": 452,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9NZI6",
+      "length": 479,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": false
+    },
+    {
+      "accession": "Q9P2K3",
+      "length": 495,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9UDV6",
+      "length": 495,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9UJU5",
+      "length": 478,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "Q9UNY5",
+      "length": 444,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O00505",
+      "length": 521,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "O14503",
+      "length": 412,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O14979",
+      "length": 420,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "O15488",
+      "length": 501,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "O43474",
+      "length": 513,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O43913",
+      "length": 435,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "O60481",
+      "length": 467,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "O75469",
+      "length": 434,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "O95260",
+      "length": 518,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P09086",
+      "length": 479,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P10276",
+      "length": 462,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P13489",
+      "length": 461,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P42685",
+      "length": 505,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P49137",
+      "length": 400,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q12899",
+      "length": 539,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q13043",
+      "length": 487,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q13133",
+      "length": 447,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q13309",
+      "length": 424,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q7RTN6",
+      "length": 431,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q8NFZ5",
+      "length": 429,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q96GN5",
+      "length": 454,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q96LI6",
+      "length": 401,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q99593",
+      "length": 518,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9BZG8",
+      "length": 438,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9BZZ5",
+      "length": 524,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9H040",
+      "length": 489,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q9H5H4",
+      "length": 540,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9NR90",
+      "length": 486,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9NWZ5",
+      "length": 548,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9UEW8",
+      "length": 545,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "Q9UGK8",
+      "length": 458,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q9UIF7",
+      "length": 546,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9ULR3",
+      "length": 514,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9Y6K9",
+      "length": 419,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "O00482",
+      "length": 541,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "O15151",
+      "length": 490,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "O15198",
+      "length": 467,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O95503",
+      "length": 412,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P02533",
+      "length": 472,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P13631",
+      "length": 454,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "P41218",
+      "length": 407,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P55058",
+      "length": 493,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q02556",
+      "length": 426,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q13363",
+      "length": 440,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q13422",
+      "length": 519,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q15306",
+      "length": 451,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q15796",
+      "length": 467,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q15797",
+      "length": 465,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q16186",
+      "length": 407,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q7Z3H4",
+      "length": 446,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": false
+    },
+    {
+      "accession": "Q86UB2",
+      "length": 503,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q86VK4",
+      "length": 478,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q8IW41",
+      "length": 473,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q8N684",
+      "length": 471,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q8NA42",
+      "length": 475,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "Q8WU90",
+      "length": 426,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "Q8WXI3",
+      "length": 467,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q92466",
+      "length": 427,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q92985",
+      "length": 503,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q96EB1",
+      "length": 424,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q96HR8",
+      "length": 494,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "Q9BZI7",
+      "length": 483,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9C0K7",
+      "length": 418,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q9H1J1",
+      "length": 476,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9H7B4",
+      "length": 428,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9NZN8",
+      "length": 540,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9UBD0",
+      "length": 423,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9UBS0",
+      "length": 482,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9UPT9",
+      "length": 525,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q9Y2I8",
+      "length": 494,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9Y3I0",
+      "length": 505,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "O00148",
+      "length": 427,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "O00167",
+      "length": 538,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O95319",
+      "length": 508,
+      "max_ungapped_domain_identity": 0.1951219512195122,
+      "retained": true
+    },
+    {
+      "accession": "O95704",
+      "length": 486,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P11474",
+      "length": 423,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P43364",
+      "length": 429,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P43686",
+      "length": 418,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P45984",
+      "length": 424,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P48443",
+      "length": 463,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P51843",
+      "length": 470,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P52294",
+      "length": 538,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P54727",
+      "length": 409,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P84022",
+      "length": 425,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "P98170",
+      "length": 497,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q13098",
+      "length": 491,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q13451",
+      "length": 457,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q13568",
+      "length": 498,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q13761",
+      "length": 415,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q14781",
+      "length": 532,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q15054",
+      "length": 466,
+      "max_ungapped_domain_identity": 0.17073170731707318,
+      "retained": true
+    },
+    {
+      "accession": "Q16566",
+      "length": 473,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q6PIY7",
+      "length": 484,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q86Y97",
+      "length": 462,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q8N2I9",
+      "length": 435,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q8N693",
+      "length": 406,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q8N6T0",
+      "length": 511,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q8NB12",
+      "length": 490,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q92769",
+      "length": 488,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q92772",
+      "length": 493,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q969S3",
+      "length": 477,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q96D46",
+      "length": 503,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q96N11",
+      "length": 449,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q96RE7",
+      "length": 527,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q99952",
+      "length": 460,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9BRS8",
+      "length": 491,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9BUB5",
+      "length": 465,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9BUL5",
+      "length": 403,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9BYV6",
+      "length": 548,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9BZS1",
+      "length": 431,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9GZT9",
+      "length": 426,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9H000",
+      "length": 416,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q9NPF5",
+      "length": 467,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9NQV5",
+      "length": 511,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9UKT7",
+      "length": 428,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q9UM82",
+      "length": 520,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q9Y6I4",
+      "length": 520,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "C9JE40",
+      "length": 543,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O00629",
+      "length": 521,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "O14733",
+      "length": 419,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "O14896",
+      "length": 467,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "O15105",
+      "length": 426,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "O75478",
+      "length": 443,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "O75600",
+      "length": 419,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O95376",
+      "length": 493,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "O95409",
+      "length": 532,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P10827",
+      "length": 490,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P11473",
+      "length": 427,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P14618",
+      "length": 531,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P17980",
+      "length": 439,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P20839",
+      "length": 514,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P28702",
+      "length": 533,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P34896",
+      "length": 483,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P37231",
+      "length": 505,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "P47974",
+      "length": 494,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "P49591",
+      "length": 514,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "P54577",
+      "length": 528,
+      "max_ungapped_domain_identity": 0.15853658536585366,
+      "retained": true
+    },
+    {
+      "accession": "Q01851",
+      "length": 419,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q03933",
+      "length": 536,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q06330",
+      "length": 500,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q14186",
+      "length": 410,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q15915",
+      "length": 447,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q4AE62",
+      "length": 458,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    },
+    {
+      "accession": "Q52LJ0",
+      "length": 433,
+      "max_ungapped_domain_identity": 0.12195121951219512,
+      "retained": true
+    },
+    {
+      "accession": "Q53EL6",
+      "length": 469,
+      "max_ungapped_domain_identity": 0.13414634146341464,
+      "retained": true
+    },
+    {
+      "accession": "Q6IQ49",
+      "length": 451,
+      "max_ungapped_domain_identity": 0.14634146341463414,
+      "retained": true
+    }
+  ],
+  "matching": [
+    {
+      "set": 1,
+      "homologues": [
+        "P41164",
+        "P50549"
+      ],
+      "controls": [
+        "P56270",
+        "Q969S3"
+      ],
+      "lengths": [
+        477,
+        477
+      ],
+      "composition_L1": [
+        0.47798742138364775,
+        0.34381551362683427
+      ],
+      "charge_proxy_difference": [
+        -0.060796645702306085,
+        -0.0041928721174004195
+      ],
+      "taxonomy_homologues": [
+        "Mus musculus",
+        "Homo sapiens"
+      ],
+      "taxonomy_controls": [
+        "Homo sapiens",
+        "Homo sapiens"
+      ]
+    },
+    {
+      "set": 2,
+      "homologues": [
+        "P41161",
+        "Q2KIC2"
+      ],
+      "controls": [
+        "Q8TBC5",
+        "Q969S3"
+      ],
+      "lengths": [
+        510,
+        477
+      ],
+      "composition_L1": [
+        0.36078431372549025,
+        0.331236897274633
+      ],
+      "charge_proxy_difference": [
+        0.03529411764705882,
+        -0.0041928721174004195
+      ],
+      "taxonomy_homologues": [
+        "Homo sapiens",
+        "Bos taurus"
+      ],
+      "taxonomy_controls": [
+        "Homo sapiens",
+        "Homo sapiens"
+      ]
+    },
+    {
+      "set": 3,
+      "homologues": [
+        "P50549",
+        "Q2KIC2"
+      ],
+      "controls": [
+        "P56270",
+        "Q969S3"
+      ],
+      "lengths": [
+        477,
+        477
+      ],
+      "composition_L1": [
+        0.5073375262054507,
+        0.331236897274633
+      ],
+      "charge_proxy_difference": [
+        -0.060796645702306085,
+        -0.0041928721174004195
+      ],
+      "taxonomy_homologues": [
+        "Homo sapiens",
+        "Bos taurus"
+      ],
+      "taxonomy_controls": [
+        "Homo sapiens",
+        "Homo sapiens"
+      ]
+    },
+    {
+      "set": 4,
+      "homologues": [
+        "P41164",
+        "Q2KIC2"
+      ],
+      "controls": [
+        "P56270",
+        "Q969S3"
+      ],
+      "lengths": [
+        477,
+        477
+      ],
+      "composition_L1": [
+        0.47798742138364775,
+        0.331236897274633
+      ],
+      "charge_proxy_difference": [
+        -0.060796645702306085,
+        -0.0041928721174004195
+      ],
+      "taxonomy_homologues": [
+        "Mus musculus",
+        "Bos taurus"
+      ],
+      "taxonomy_controls": [
+        "Homo sapiens",
+        "Homo sapiens"
+      ]
+    },
+    {
+      "set": 5,
+      "homologues": [
+        "P41164",
+        "Q9CXC9"
+      ],
+      "controls": [
+        "Q969S3",
+        "Q8TBC5"
+      ],
+      "lengths": [
+        477,
+        510
+      ],
+      "composition_L1": [
+        0.31446540880503143,
+        0.34117647058823525
+      ],
+      "charge_proxy_difference": [
+        -0.0041928721174004195,
+        0.03725490196078431
+      ],
+      "taxonomy_homologues": [
+        "Mus musculus",
+        "Mus musculus"
+      ],
+      "taxonomy_controls": [
+        "Homo sapiens",
+        "Homo sapiens"
+      ]
+    }
+  ],
+  "pretraining_overlap": "Not excluded. Focal and prompt accessions may occur in UniRef/AFDB/ProFam Atlas; no held-out generalization claim. Atlas membership not exhaustively queried."
+}

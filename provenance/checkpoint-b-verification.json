@@ -1,0 +1,153 @@
+{
+  "status": "passed",
+  "date": "2026-11-13",
+  "pages": 8,
+  "figures": 4,
+  "source_tables": 11,
+  "source_identities_checked": 7,
+  "numerical_checks": "Quoted ESM values and upper/lower bounds, complete-panel maxima, fixed-block failures, 3B bound separation, WT counts, ProFam ranges and matched order counts, set-1 shuffle counts, WT means/SEM, input/prompt and mask cardinalities",
+  "render_checks": "Eight pages inspected; no overflow/missing glyphs; final rendering/text/font logs clean",
+  "fonts": "Libertinus Serif/Sans/Mono/Math embedded; vector figure glyphs embedded as Type 3",
+  "scientific_status": "Candidate Results and captions for author review; no regulatory-specificity claim or independent scientific review",
+  "new_model_forwards": 0,
+  "manuscript_assembled": false,
+  "pdf_sha256": "fd7ebe43d6f7c3ebe015395749f39e1232f3cdf11474789405a6f42b51178ef9",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "sha256": "eb4731a6978cb7ab88a5a2c439dbabe59219e6d5a3632dbf64b08e3961856338"
+    },
+    {
+      "path": "build/checkpoint-b.pdf",
+      "sha256": "fd7ebe43d6f7c3ebe015395749f39e1232f3cdf11474789405a6f42b51178ef9"
+    },
+    {
+      "path": "build_packet.py",
+      "sha256": "e25a051f42a1b409076a054c6c862adfeb44b44b95533c3876d67beaefd23f3a"
+    },
+    {
+      "path": "checkpoint-b.tex",
+      "sha256": "494a79a1d9e1789e02885114f03a2a24b2a837d31e3cd73616ece605f87bde24"
+    },
+    {
+      "path": "content.json",
+      "sha256": "b9640e8ab6e483076235800a57d984f9a3be282c81e9429d034121317f9c452f"
+    },
+    {
+      "path": "data/esm-all-fixed-blocks.tsv",
+      "sha256": "7f9e5de011de3b60830b3e645d9f65edb6e78ab709da1f8de868c4f2e8637a35"
+    },
+    {
+      "path": "data/esm-native-order-margins.tsv",
+      "sha256": "f1292d7cebe0a42548d9d132a4f115289ef27cb8f4ac4ec992baf2527de3bb29"
+    },
+    {
+      "path": "data/esm-primary-shuffles.tsv",
+      "sha256": "5a44869e9c043bc8bb5ff4632ffae8ae96785e327db5472a1a8b0b444a7c4797"
+    },
+    {
+      "path": "data/esm-primary.tsv",
+      "sha256": "74ee2f5f037b2a93be9ccd72c1d02f9bbffbf551d62c95abeec9812e7ac2d99b"
+    },
+    {
+      "path": "data/esm-wt-factorial.tsv",
+      "sha256": "0ec5458c902f7f62c67a5b51f2ce3c1bd3bd5d4d22b31525a3549546484eda75"
+    },
+    {
+      "path": "data/profam-NID-shuffles.tsv",
+      "sha256": "8f4658fa159d4a61fa6390852d428a5e873d904d0714d39e7c052bc15cce9a90"
+    },
+    {
+      "path": "data/profam-matched-norm-differences.tsv",
+      "sha256": "6117e911b7c9575342c96d51632d693eab792cb4fccd72c2370e1ffc29b2f209"
+    },
+    {
+      "path": "data/profam-order-contrasts.tsv",
+      "sha256": "02fa4bc397c3b0bbb35a3c62ed2b331db8f499a13ea1e516c323d8eab2514a7c"
+    },
+    {
+      "path": "data/profam-prompt-responses.tsv",
+      "sha256": "bfce432aabf031aaadc17848728909ad41ede3431dedc66e28a4285c5a50b27a"
+    },
+    {
+      "path": "data/profam-vector-contrasts.tsv",
+      "sha256": "8f39ba23b9e2542bb76d8b3a00bceaaa8776050b3b2773b22ab2c43e81efdf68"
+    },
+    {
+      "path": "data/published-WT-affinities.tsv",
+      "sha256": "a556aa81715379818df0c1099f269a642dae4cecf8e9b79dadc05bbb4c584de5"
+    },
+    {
+      "path": "data-provenance.json",
+      "sha256": "c13649dd17d8bd14bfb91107e1bb9e1ae53505b958b99b5b925f6d895803e929"
+    },
+    {
+      "path": "figures/fig1-design.pdf",
+      "sha256": "a00d1d2097d8d5b479a1adae1cc6df14d02d3b4c7cdc1ceeeb185913c0caa021"
+    },
+    {
+      "path": "figures/fig1-design.png",
+      "sha256": "32ecb19ac7c629449c55cdfb32b3cc09088dfc5e2e08298b9a1c629ba189dd12"
+    },
+    {
+      "path": "figures/fig1-design.svg",
+      "sha256": "69ba740f38f83e3ba475c42e3d9bc8980a410fc35c33ddc0888922b1dfd20afa"
+    },
+    {
+      "path": "figures/fig2-mutation-responses.pdf",
+      "sha256": "189773b25e2b0f2f0f24f0bda3d8de562812959dd373a2b54badbed79e3d814d"
+    },
+    {
+      "path": "figures/fig2-mutation-responses.png",
+      "sha256": "008b96752b01a86358745ae7d36168377de8bae020e60ced805a9cb6bf6734f7"
+    },
+    {
+      "path": "figures/fig2-mutation-responses.svg",
+      "sha256": "f154c8f1ca54e05943d3684b4b2aef5d81ec2fc1f1f69aee9463d51d2e91a7c9"
+    },
+    {
+      "path": "figures/fig3-order-controls.pdf",
+      "sha256": "7ee614db7ddd7fe1b3837cce3a37963f3e13b4769e8f584eae881b18ec4a3aa1"
+    },
+    {
+      "path": "figures/fig3-order-controls.png",
+      "sha256": "18dd9fbd28e73b99f4f46b8333a544924f04d2334bd24de04e5f2d00486602d3"
+    },
+    {
+      "path": "figures/fig3-order-controls.svg",
+      "sha256": "7233414fa259c5ed451ba37a8a322848812bd16e1a443530adf53a461017bb30"
+    },
+    {
+      "path": "figures/fig4-profam-conditioning.pdf",
+      "sha256": "569ab9d9f119e7ba1e992f8ff106830fac120782ad761a41bd0970a7e252d85c"
+    },
+    {
+      "path": "figures/fig4-profam-conditioning.png",
+      "sha256": "235481929b5fc65a071c0d0347ba5298dc956b68114279d1628586a2f6a446a2"
+    },
+    {
+      "path": "figures/fig4-profam-conditioning.svg",
+      "sha256": "d90db21fb7b29552b4f89abe07f636827bfb8740e3415943ba0fecd01b0c7ebf"
+    },
+    {
+      "path": "prepare_package.py",
+      "sha256": "7206a121e4bc7e85f5c652a92dad1ad24855a801b4017791ba65bfbffa921b51"
+    },
+    {
+      "path": "profam-walkthrough.md",
+      "sha256": "3fa70a975f56f56cb7d9f74081911601b2dedb466913b7bcc5202f4dd427d146"
+    },
+    {
+      "path": "profam-walkthrough.tex",
+      "sha256": "f2ba7b84446bf10d95565d8ff7d11a366c8d0702c45316c2f39dd3051565d071"
+    },
+    {
+      "path": "results-and-captions.md",
+      "sha256": "1ec9d0e8c1090373876fbaac42cce311fac9ea336e7e2475aeb4db477d0cd2c2"
+    },
+    {
+      "path": "verify_package.py",
+      "sha256": "1a6fb56e9662ca7925a65b0bacefdf2a6656b690bab5978be809f427b31877d4"
+    }
+  ]
+}

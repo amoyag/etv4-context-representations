@@ -1,0 +1,35 @@
+{
+  "status": "frozen",
+  "model": "esm2_3b",
+  "models": {
+    "esm2_3b": {
+      "device": "cuda",
+      "dtype": "float32",
+      "width": 2560,
+      "layers": [
+        19,
+        24,
+        36
+      ],
+      "eta": {
+        "19": 0.0001223633081617284,
+        "24": 0.0001706049749376471,
+        "36": 0.00011761620735963313
+      }
+    }
+  },
+  "primary_block": 24,
+  "batch_size": 1,
+  "seed": 19001,
+  "tf32": false,
+  "gradients": false,
+  "hardware": {
+    "torch": "2.15.0+cu132",
+    "cuda": "13.2",
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "vram": 42429251584,
+    "job_id": "3646250"
+  },
+  "package_sha256": "d2d08b39fab50561f050f75c18a8b9e31e58333d9fd923f65815db2447b619f4",
+  "checkpoint_manifest_sha256": "709e08b128d33d8b067aa6734d461929ef05c8b466596789fe5be2d2e1744432"
+}

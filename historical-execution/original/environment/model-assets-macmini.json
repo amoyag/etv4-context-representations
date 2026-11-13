@@ -1,0 +1,52 @@
+{
+  "scope": "asset_download_and_hash_only",
+  "host": "amoya4b47.cie.uma.es",
+  "recorded_date": "2026-11-10",
+  "files": [
+    {
+      "model": "ProFam-1",
+      "path": "models/profam-1/checkpoints/last.ckpt",
+      "bytes": 1511154085,
+      "sha256": "8ec54d80323f188d3454fb4457f63f12158fe55552b919554806b12730c30e08",
+      "source": "https://huggingface.co/judewells/ProFam-1/resolve/fe4084f356480fd048a23097fcc133f1e5ba019d/checkpoints/last.ckpt",
+      "upstream_sha256": "8ec54d80323f188d3454fb4457f63f12158fe55552b919554806b12730c30e08",
+      "upstream_revision": "fe4084f356480fd048a23097fcc133f1e5ba019d",
+      "identity_check": "upstream_sha256_match"
+    },
+    {
+      "model": "ProFam-1 config",
+      "path": "models/profam-1/.hydra/config.yaml",
+      "bytes": 13415,
+      "sha256": "46c017cf10446f0c820940783f51167ec98107d5376bc8df7bb490a051f31e42",
+      "source": "https://huggingface.co/judewells/ProFam-1/resolve/fe4084f356480fd048a23097fcc133f1e5ba019d/.hydra/config.yaml",
+      "upstream_sha256": null,
+      "upstream_revision": "fe4084f356480fd048a23097fcc133f1e5ba019d",
+      "identity_check": "local_sha256_recorded_from_official_download"
+    },
+    {
+      "model": "ESM-2 650M",
+      "path": "models/esm2/esm2_t33_650M_UR50D.pt",
+      "bytes": 2604537549,
+      "sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+      "source": "https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t33_650M_UR50D.pt",
+      "upstream_sha256": null,
+      "upstream_revision": null,
+      "identity_check": "local_sha256_recorded_from_official_download"
+    },
+    {
+      "model": "ESM-2 contact regression",
+      "path": "models/esm2/esm2_t33_650M_UR50D-contact-regression.pt",
+      "bytes": 3687,
+      "sha256": "8ffe6edbd4173dc8d45c2cd5cb27d43aad77ec26b4c768200c58ae1f96693575",
+      "source": "https://dl.fbaipublicfiles.com/fair-esm/regression/esm2_t33_650M_UR50D-contact-regression.pt",
+      "upstream_sha256": null,
+      "upstream_revision": null,
+      "identity_check": "local_sha256_recorded_from_official_download"
+    }
+  ],
+  "passed": true,
+  "weights_loaded": false,
+  "inference_executed": false,
+  "E1_qualified": false,
+  "limitation": "ESM hashes record downloaded identity; no independent upstream SHA-256 was available."
+}

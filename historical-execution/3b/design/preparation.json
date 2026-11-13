@@ -1,0 +1,21 @@
+{
+  "status": "prepared_not_executed",
+  "model": "esm2_t36_3B_UR50D",
+  "layers": [
+    19,
+    24,
+    36
+  ],
+  "primary_block": 24,
+  "precision": "float32",
+  "versions": {
+    "torch": "2.15.0+cu132",
+    "fair-esm": "2.0.0",
+    "numpy": "2.4.6"
+  },
+  "eta_rule": "max(1e-7,10*max(CPU/CUDA repeatability and cross-device normalized discrepancy))",
+  "qualification_forwards": 20,
+  "biological_and_control_forwards": 217,
+  "original_E2_unchanged": true,
+  "new_execution_requires_authorization": true
+}

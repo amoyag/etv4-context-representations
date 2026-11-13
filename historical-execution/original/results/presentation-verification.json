@@ -1,0 +1,13 @@
+{
+  "analysis_sha256": "dc5d35b481c9de6ac8d6f88a3c2d76928c0043af0a327740ac5881b0914dc502",
+  "primary_rows": 30,
+  "control_rows": 3069,
+  "profile_rows": 55410,
+  "baseline_rows": 19313,
+  "round_trip_tables_passed": true,
+  "figures": [
+    "figures/fig1.pdf",
+    "figures/fig2.pdf",
+    "figures/fig3.pdf"
+  ]
+}

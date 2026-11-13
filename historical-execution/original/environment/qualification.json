@@ -1,0 +1,338 @@
+{
+  "passed": true,
+  "scope": "Artificial E1 only",
+  "forwards": {
+    "esm2_650m": 20,
+    "profam1": 31
+  },
+  "biological_forwards": 0,
+  "models": {
+    "esm2_650m": {
+      "device": "mps",
+      "dtype": "float32",
+      "width": 1280,
+      "layers": [
+        17,
+        22,
+        33
+      ],
+      "eta": {
+        "17": 0.00044741160090236014,
+        "22": 0.00036448990908268084,
+        "33": 0.00019026842980369673
+      },
+      "errors": {
+        "17": {
+          "repeat_max": 0.0,
+          "cpu_mps_max": 4.4741160090236014e-05,
+          "eta": 0.00044741160090236014
+        },
+        "22": {
+          "repeat_max": 0.0,
+          "cpu_mps_max": 3.6448990908268085e-05,
+          "eta": 0.00036448990908268084
+        },
+        "33": {
+          "repeat_max": 0.0,
+          "cpu_mps_max": 1.9026842980369672e-05,
+          "eta": 0.00019026842980369673
+        }
+      },
+      "visibility": {
+        "17": 0.7497070155798793,
+        "22": 0.6772850102964489,
+        "33": 0.4593774485115394
+      },
+      "parameter_count": 651043254,
+      "max_measured_end_to_end_seconds": 0.7922582500614226,
+      "projected_seconds_2x": 354.2607698587235,
+      "RSS_peak_bytes": 5294669824,
+      "MPS_driver_max_sample_bytes": 3339337728,
+      "conservative_RSS_plus_driver_bytes": 8634007552,
+      "activation_bytes_uncompressed": 1242378240,
+      "cpu_long_max_seconds": 1.182331082993187,
+      "mps_long_max_seconds": 0.7922582500614226,
+      "selected_report": "results/qualification/E1-20261110-esm-mps-01/report.json"
+    },
+    "profam1": {
+      "device": "mps",
+      "dtype": "float32",
+      "width": 1024,
+      "layers": [
+        8,
+        11,
+        16
+      ],
+      "eta": {
+        "8": 6.744589170358099e-05,
+        "11": 5.5237209778149116e-05,
+        "16": 4.471244960571287e-06
+      },
+      "errors": {
+        "8": {
+          "repeat_max": 0.0,
+          "cpu_mps_max": 6.7445891703580985e-06,
+          "eta": 6.744589170358099e-05
+        },
+        "11": {
+          "repeat_max": 0.0,
+          "cpu_mps_max": 5.523720977814911e-06,
+          "eta": 5.5237209778149116e-05
+        },
+        "16": {
+          "repeat_max": 0.0,
+          "cpu_mps_max": 4.4712449605712877e-07,
+          "eta": 4.471244960571287e-06
+        }
+      },
+      "visibility": {
+        "8": {
+          "cpu": 1.4883095700065637e-06,
+          "mps": 0.0
+        },
+        "11": {
+          "cpu": 1.1625760138016754e-06,
+          "mps": 0.0
+        },
+        "16": {
+          "cpu": 1.4082694966707423e-07,
+          "mps": 0.0
+        }
+      },
+      "parameter_count": 251831296,
+      "max_measured_end_to_end_seconds": 1.4752418340649456,
+      "projected_seconds_2x": 843.156768321991,
+      "RSS_peak_bytes": 3079471104,
+      "MPS_driver_max_sample_bytes": 2190082048,
+      "conservative_RSS_plus_driver_bytes": 5269553152,
+      "activation_bytes_uncompressed": 794345472,
+      "cpu_long_max_seconds": 1.3682683750521392,
+      "mps_long_max_seconds": 0.8738676250213757,
+      "selected_report": "results/qualification/E1-20261110-profam-mps-01/report.json"
+    }
+  },
+  "raw_array_count": 51,
+  "raw_arrays": [
+    {
+      "path": "results/qualification/E1-20261110-esm-cpu-02/Q1-0.npz",
+      "sha256": "1f43637afa3364c56fbce0d0e165a8fffa3c270de86617a863c907dd5f4813df"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-cpu-02/Q1-1.npz",
+      "sha256": "1f43637afa3364c56fbce0d0e165a8fffa3c270de86617a863c907dd5f4813df"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-cpu-02/Q1-2.npz",
+      "sha256": "1f43637afa3364c56fbce0d0e165a8fffa3c270de86617a863c907dd5f4813df"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-cpu-02/Q2-0.npz",
+      "sha256": "fc42ec49125d7bcec694cdac40f040b67a839c09c72dbcfbeeed6c8f46d7c43d"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-cpu-02/Q2-1.npz",
+      "sha256": "fc42ec49125d7bcec694cdac40f040b67a839c09c72dbcfbeeed6c8f46d7c43d"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-cpu-02/Q2-2.npz",
+      "sha256": "fc42ec49125d7bcec694cdac40f040b67a839c09c72dbcfbeeed6c8f46d7c43d"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-cpu-02/Q3-0.npz",
+      "sha256": "a8024eccd42ab80016ce9e7885835229a7e558ec09d77f39734a7a9dc717b622"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-cpu-02/Q3-1.npz",
+      "sha256": "a8024eccd42ab80016ce9e7885835229a7e558ec09d77f39734a7a9dc717b622"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-cpu-02/Q3-2.npz",
+      "sha256": "a8024eccd42ab80016ce9e7885835229a7e558ec09d77f39734a7a9dc717b622"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-mps-01/Q1-0.npz",
+      "sha256": "a041fd115e7afb69becc5f29d2d53a40c08bbc0cee814e526337191e4bed3f4f"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-mps-01/Q1-1.npz",
+      "sha256": "a041fd115e7afb69becc5f29d2d53a40c08bbc0cee814e526337191e4bed3f4f"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-mps-01/Q1-2.npz",
+      "sha256": "a041fd115e7afb69becc5f29d2d53a40c08bbc0cee814e526337191e4bed3f4f"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-mps-01/Q2-0.npz",
+      "sha256": "78d6d01418275981526ce701365b4d0914e768865b0d442a2b4fdaa54a14b29e"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-mps-01/Q2-1.npz",
+      "sha256": "78d6d01418275981526ce701365b4d0914e768865b0d442a2b4fdaa54a14b29e"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-mps-01/Q2-2.npz",
+      "sha256": "78d6d01418275981526ce701365b4d0914e768865b0d442a2b4fdaa54a14b29e"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-mps-01/Q3-0.npz",
+      "sha256": "76f29bc93005c28200289e655e9097ebadf99b18a36ddc8626c1598c2b89a727"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-mps-01/Q3-1.npz",
+      "sha256": "76f29bc93005c28200289e655e9097ebadf99b18a36ddc8626c1598c2b89a727"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-mps-01/Q3-2.npz",
+      "sha256": "76f29bc93005c28200289e655e9097ebadf99b18a36ddc8626c1598c2b89a727"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-visibility-01/Q1-0.npz",
+      "sha256": "a041fd115e7afb69becc5f29d2d53a40c08bbc0cee814e526337191e4bed3f4f"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-visibility-01/Q1_C-0.npz",
+      "sha256": "a54f77b4811eb565bb702e845f56b76966319d143282ca5ee2ab434d7b6c154f"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-02/Q1-0.npz",
+      "sha256": "e1f30108801769e9ed9c40c7bd93e93daaa09f3bf1549cbc4a02e7305613ef66"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-02/Q1-1.npz",
+      "sha256": "e1f30108801769e9ed9c40c7bd93e93daaa09f3bf1549cbc4a02e7305613ef66"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-02/Q1-2.npz",
+      "sha256": "e1f30108801769e9ed9c40c7bd93e93daaa09f3bf1549cbc4a02e7305613ef66"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-02/Q2-0.npz",
+      "sha256": "b27aea906d4fdf2f0c4db59527f59b911bb8be5493d72ce4506416b0326878dc"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-02/Q2-1.npz",
+      "sha256": "b27aea906d4fdf2f0c4db59527f59b911bb8be5493d72ce4506416b0326878dc"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-02/Q2-2.npz",
+      "sha256": "b27aea906d4fdf2f0c4db59527f59b911bb8be5493d72ce4506416b0326878dc"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-02/Q3-0.npz",
+      "sha256": "ef4f8e6e999e7ff8094a424ece62c04c49eef765c77d844aec2ba1c25dff269a"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-02/Q3-1.npz",
+      "sha256": "ef4f8e6e999e7ff8094a424ece62c04c49eef765c77d844aec2ba1c25dff269a"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-02/Q3-2.npz",
+      "sha256": "ef4f8e6e999e7ff8094a424ece62c04c49eef765c77d844aec2ba1c25dff269a"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-02/Q1_C-0.npz",
+      "sha256": "d79ac6beecb35f532906506da7ba24542b366d3c76f566e17d8d2b9e868822f7"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-02/Q1_C-1.npz",
+      "sha256": "d79ac6beecb35f532906506da7ba24542b366d3c76f566e17d8d2b9e868822f7"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-02/Q1_C-2.npz",
+      "sha256": "d79ac6beecb35f532906506da7ba24542b366d3c76f566e17d8d2b9e868822f7"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-02/Q2_C-0.npz",
+      "sha256": "97618a1a9db7e44f6b24cc3ac8c21cef4562e0a25e175132e71971bcc7c61f25"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-02/Q2_C-1.npz",
+      "sha256": "97618a1a9db7e44f6b24cc3ac8c21cef4562e0a25e175132e71971bcc7c61f25"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-02/Q2_C-2.npz",
+      "sha256": "97618a1a9db7e44f6b24cc3ac8c21cef4562e0a25e175132e71971bcc7c61f25"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-memory-01/Q3-0.npz",
+      "sha256": "10aadb566ce8130698c125e78f56b4904d4a29c7c6c68af467bf8f4ecbbe6030"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-mps-01/Q1-0.npz",
+      "sha256": "35cee495529341542f0fc3592ee245084f4cfa22992f4687a7cda8cf062ad948"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-mps-01/Q1-1.npz",
+      "sha256": "35cee495529341542f0fc3592ee245084f4cfa22992f4687a7cda8cf062ad948"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-mps-01/Q1-2.npz",
+      "sha256": "35cee495529341542f0fc3592ee245084f4cfa22992f4687a7cda8cf062ad948"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-mps-01/Q2-0.npz",
+      "sha256": "acaee1a49d490232fe45bc7db49c6c21ad7ffc0000f2a956613ef2c8a7f87125"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-mps-01/Q2-1.npz",
+      "sha256": "acaee1a49d490232fe45bc7db49c6c21ad7ffc0000f2a956613ef2c8a7f87125"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-mps-01/Q2-2.npz",
+      "sha256": "acaee1a49d490232fe45bc7db49c6c21ad7ffc0000f2a956613ef2c8a7f87125"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-mps-01/Q3-0.npz",
+      "sha256": "10aadb566ce8130698c125e78f56b4904d4a29c7c6c68af467bf8f4ecbbe6030"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-mps-01/Q3-1.npz",
+      "sha256": "10aadb566ce8130698c125e78f56b4904d4a29c7c6c68af467bf8f4ecbbe6030"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-mps-01/Q3-2.npz",
+      "sha256": "10aadb566ce8130698c125e78f56b4904d4a29c7c6c68af467bf8f4ecbbe6030"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-mps-01/Q1_C-0.npz",
+      "sha256": "8b584d97063cd60a945e54cc6021833b552048461b76238156285552b149a03a"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-mps-01/Q1_C-1.npz",
+      "sha256": "8b584d97063cd60a945e54cc6021833b552048461b76238156285552b149a03a"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-mps-01/Q1_C-2.npz",
+      "sha256": "8b584d97063cd60a945e54cc6021833b552048461b76238156285552b149a03a"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-mps-01/Q2_C-0.npz",
+      "sha256": "ca9b2d1eb4345582de3297179a780d7a47ba14261265713d9d71608e2e18e14d"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-mps-01/Q2_C-1.npz",
+      "sha256": "ca9b2d1eb4345582de3297179a780d7a47ba14261265713d9d71608e2e18e14d"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-mps-01/Q2_C-2.npz",
+      "sha256": "ca9b2d1eb4345582de3297179a780d7a47ba14261265713d9d71608e2e18e14d"
+    }
+  ],
+  "frozen_E0_sha256": "0c3604591b0a615fb369a6e5a174f80e092e499c456d43f5fad69029b3f4dd19",
+  "failed_attempts": [
+    "E1-20261110-esm-cpu-01",
+    "E1-20261110-profam-cpu-01"
+  ],
+  "resources": {
+    "estimated_at": "2026-11-10T15:20:56.516213+01:00",
+    "export_freeze": "2026-11-12T16:00:00+01:00",
+    "model_seconds_2x": 1197.4175381807145,
+    "analysis_planning_allowance_seconds": 3600,
+    "projected_core_seconds_including_allowance": 4797.4175381807145,
+    "available_seconds": 175143.483787,
+    "fits_before_freeze": true,
+    "disk_free_bytes": 252531605504,
+    "activation_storage_bytes_2x": 4073447424,
+    "assumption": "Prompt E2 activation after author review and otherwise available local host; timing does not schedule or authorize E2."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "scope": "saved-summary reconstruction and arithmetic; no new inference",
+  "frozen_inputs": 7,
+  "historical_source_files": 73,
+  "tables_byte_identical": 11,
+  "fixed_ESM_metric_rows": 30,
+  "profam_positive_matched_differences": {
+    "8": 0,
+    "11": 0,
+    "16": 8
+  },
+  "mask_sizes": [
+    88,
+    94
+  ],
+  "new_model_forwards": 0,
+  "python": "3.11.12"
+}

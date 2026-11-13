@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "scope": "Post-E1 continuation; no scientific design change or stage activation.",
+  "stages": {
+    "E2": {
+      "requires": [
+        "E1"
+      ],
+      "evidence": [
+        "handoff/E1-results-and-continuation.md",
+        "design/protocol-v1.md",
+        "design/run-plan.json",
+        "design/execution-config.json",
+        "environment/qualification.json",
+        "environment/model-manifest.json"
+      ],
+      "topics": [
+        "numerical_floors_and_causal_visibility",
+        "complete_matrix_and_controls",
+        "resources_and_current_execution_conditions"
+      ]
+    },
+    "W0": {
+      "requires": [
+        "E0",
+        "E1"
+      ],
+      "evidence": [
+        "design/protocol-v1.md",
+        "sources/source-audit.md",
+        "sources/novelty-check.md",
+        "reviews/design-review.md",
+        "handoff/E1-results-and-continuation.md",
+        "design/execution-config.json"
+      ],
+      "topics": [
+        "question_and_prior_evidence",
+        "executed_qualification_vs_planned_experiments",
+        "scientific_limits_and_frozen_source_ownership"
+      ]
+    },
+    "W1": {
+      "requires": [
+        "E2",
+        "W0"
+      ],
+      "evidence": [
+        "results/coverage.json",
+        "results/report.md",
+        "exports/results-v1/manifest.json",
+        "handoff/W0-snapshot/introduction.tex",
+        "handoff/W0-snapshot/literature-claims.tsv",
+        "handoff/W0-snapshot/methods-plan.md",
+        "design/execution-config.json"
+      ],
+      "topics": [
+        "results_support_and_unresolved_comparisons",
+        "actual_methods_and_qualification",
+        "claim_figure_consistency_and_contribution"
+      ]
+    },
+    "R0": {
+      "requires": [
+        "W1"
+      ],
+      "evidence": [
+        "paper/main.tex",
+        "paper/build/main.pdf",
+        "paper/claims-to-results.tsv",
+        "exports/results-v1/manifest.json",
+        "results/report.md",
+        "environment/qualification.json",
+        "design/execution-config.json"
+      ],
+      "topics": [
+        "contribution_and_alternative_explanations",
+        "numerical_and_causal_inference_limits",
+        "independent_review_coverage_and_artifact_identity"
+      ]
+    }
+  }
+}

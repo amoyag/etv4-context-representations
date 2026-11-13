@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-11-10T14:22:37.222046+00:00",
+  "status": "both_models_loaded_and_numerically_qualified",
+  "host": "amoya4b47.cie.uma.es",
+  "python": "3.11.15",
+  "versions": {
+    "torch": "2.15.0",
+    "profam": "0.1.8",
+    "fair-esm": "2.0.0",
+    "transformers": "4.57.6",
+    "numpy": "2.4.6",
+    "lightning": "2.6.6",
+    "tokenizers": "0.22.2",
+    "omegaconf": "2.3.1"
+  },
+  "assets": [
+    {
+      "model": "ProFam-1",
+      "path": "models/profam-1/checkpoints/last.ckpt",
+      "bytes": 1511154085,
+      "sha256": "8ec54d80323f188d3454fb4457f63f12158fe55552b919554806b12730c30e08",
+      "source": "https://huggingface.co/judewells/ProFam-1/resolve/fe4084f356480fd048a23097fcc133f1e5ba019d/checkpoints/last.ckpt",
+      "upstream_sha256": "8ec54d80323f188d3454fb4457f63f12158fe55552b919554806b12730c30e08",
+      "upstream_revision": "fe4084f356480fd048a23097fcc133f1e5ba019d",
+      "identity_check": "upstream_sha256_match"
+    },
+    {
+      "model": "ProFam-1 config",
+      "path": "models/profam-1/.hydra/config.yaml",
+      "bytes": 13415,
+      "sha256": "46c017cf10446f0c820940783f51167ec98107d5376bc8df7bb490a051f31e42",
+      "source": "https://huggingface.co/judewells/ProFam-1/resolve/fe4084f356480fd048a23097fcc133f1e5ba019d/.hydra/config.yaml",
+      "upstream_sha256": null,
+      "upstream_revision": "fe4084f356480fd048a23097fcc133f1e5ba019d",
+      "identity_check": "local_sha256_recorded_from_official_download"
+    },
+    {
+      "model": "ESM-2 650M",
+      "path": "models/esm2/esm2_t33_650M_UR50D.pt",
+      "bytes": 2604537549,
+      "sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+      "source": "https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t33_650M_UR50D.pt",
+      "upstream_sha256": null,
+      "upstream_revision": null,
+      "identity_check": "local_sha256_recorded_from_official_download"
+    },
+    {
+      "model": "ESM-2 contact regression",
+      "path": "models/esm2/esm2_t33_650M_UR50D-contact-regression.pt",
+      "bytes": 3687,
+      "sha256": "8ffe6edbd4173dc8d45c2cd5cb27d43aad77ec26b4c768200c58ae1f96693575",
+      "source": "https://dl.fbaipublicfiles.com/fair-esm/regression/esm2_t33_650M_UR50D-contact-regression.pt",
+      "upstream_sha256": null,
+      "upstream_revision": null,
+      "identity_check": "local_sha256_recorded_from_official_download"
+    }
+  ],
+  "installed_sources": [
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/profam/checkpoint.py",
+      "sha256": "f65fa9585149127315a41312488e84930331e83e0f6445d567473b85b49053d0"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/profam/models/base.py",
+      "sha256": "5239481e4c5d500fb96876b3d444e35c84e5a31f2d3b8ed6c8e12f23fcd2ee43"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/profam/models/llama.py",
+      "sha256": "521c149ccd51e8f7f8950738856dfc9306cbf9c8ffe5b5c21f4cf9777b17237e"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/profam/data/tokenizers.py",
+      "sha256": "d27d87b3b989c59ff895a68eabf5b9938c4775dd3d6c8e5f748a8cdc221565fc"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/esm/pretrained.py",
+      "sha256": "2104beefc2eec254fb01143b14b89856d03cecf1fb698d1951e0c5c0cbf4a59f"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/esm/model/esm2.py",
+      "sha256": "aadad74d5c2a5b85786390df4071466acc57e028279fe499c97c473125e0d9f4"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/esm/modules.py",
+      "sha256": "6a82388514f8a9a6e67a5636277df5e7a5864421f392b45f3da80717500c57d9"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/esm/multihead_attention.py",
+      "sha256": "81bfc52ff93431d2384562c657cb0578dee8677fb9663babeec1239155b2cbc0"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py",
+      "sha256": "31bf660a663259134324bc65da4e155951dc89c5ca46471d2325a9938e859e26"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/transformers/masking_utils.py",
+      "sha256": "7a963feed8173b8265298dd24350c166222ce6b4719442fce48ab414d0478a6a"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py",
+      "sha256": "dc5abe49a98dec3b9026739dfbf2e9a8f3e5272b2916b3c2d404727ac931a013"
+    }
+  ],
+  "models": {
+    "esm2_650m": {
+      "parameter_count": 651043254,
+      "layers": [
+        17,
+        22,
+        33
+      ],
+      "device": "mps",
+      "dtype": "float32",
+      "selected_report": "results/qualification/E1-20261110-esm-mps-01/report.json"
+    },
+    "profam1": {
+      "parameter_count": 251831296,
+      "layers": [
+        8,
+        11,
+        16
+      ],
+      "device": "mps",
+      "dtype": "float32",
+      "selected_report": "results/qualification/E1-20261110-profam-mps-01/report.json"
+    }
+  },
+  "representation": "Post-transformer-block residual, before model-wide final normalisation; hook identity checked on every forward.",
+  "weight_changes": false,
+  "checkpoint_notes": [
+    "ProFam unexpected token_embedder key accepted only after exact equality to the loaded input-embedding tensor; no missing keys.",
+    "ESM official local checkpoint loaded with weights_only default preserved and explicit argparse.Namespace safe-global allowance."
+  ],
+  "upstream_code_reference": "https://github.com/alex-hh/profam/blob/main/profam/checkpoint.py",
+  "upstream_reference_scope": "Consulted for loader behavior; installed source hashes above define the executed implementation, not mutable upstream main."
+}

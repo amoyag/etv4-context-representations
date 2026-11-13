@@ -1,0 +1,367 @@
+[
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/design/frozen-protocol.json",
+    "destination": "historical-execution/original/design/frozen-protocol.json",
+    "sha256": "0c3604591b0a615fb369a6e5a174f80e092e499c456d43f5fad69029b3f4dd19"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/design/E0-selection-rules.md",
+    "destination": "historical-execution/original/design/E0-selection-rules.md",
+    "sha256": "13d7c66eab5450c63fb4cf53cda1c281ccbef07853edf37ea015ff71d549f234"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/design/stages.json",
+    "destination": "historical-execution/original/design/stages.json",
+    "sha256": "4814ba88f1eb8b5eb314ac46bb685a4ca6945a37365e1329fae017dbb235966f"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/design/execution-config.json",
+    "destination": "historical-execution/original/design/execution-config.json",
+    "sha256": "c481e29bf3c859d7c2109b74491281236a8a0d37b702e73bfb78d28aed94ee87"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/design/stage-intake-policy.json",
+    "destination": "historical-execution/original/design/stage-intake-policy.json",
+    "sha256": "36d4fa14c2eacac9977b1c5ea076bace205ee9132bc852b71580bb173c6cb66e"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/design/protocol-v1.md",
+    "destination": "historical-execution/original/design/protocol-v1.md",
+    "sha256": "638d1e095a0dd9f0fe311ff2d119c590cedf8431a5fb33643527bf87b1870069"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/design/run-plan.json",
+    "destination": "historical-execution/original/design/run-plan.json",
+    "sha256": "dce8332a6f3831fe5bc46d1fab49444225aa1c17e8b6e02d146a4ca2572517bc"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/design/qualification-inputs.json",
+    "destination": "historical-execution/original/design/qualification-inputs.json",
+    "sha256": "dddcc0b7634cd752ba0b18bbfd804110385158aef5d29ecfa3ab9dc237814248"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/environment/qualification.json",
+    "destination": "historical-execution/original/environment/qualification.json",
+    "sha256": "e8099ccef9b1f1401db43b15e46bc7f97809e792d987e8e2831230504ae60844"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/environment/E1-technical-plan.md",
+    "destination": "historical-execution/original/environment/E1-technical-plan.md",
+    "sha256": "110896d7c27af44b17329124076a674e250554b84192c872c286d7d6cd8ad0fd"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/environment/model-manifest.json",
+    "destination": "historical-execution/original/environment/model-manifest.json",
+    "sha256": "cff783d83efbc571b46199c52d91b8b8f28d7c5fbff06f7b4148fcc6d9579126"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/environment/requirements-macmini.lock.txt",
+    "destination": "historical-execution/original/environment/requirements-macmini.lock.txt",
+    "sha256": "642f994db077d078e397b394264502105b6002d4476126d5ae29151c2bd03031"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/data/derived/measurement-registry.tsv",
+    "destination": "historical-execution/original/data/derived/measurement-registry.tsv",
+    "sha256": "546e655f03a6ff1cb9bb1baeae06fce8cf6c697c16629a822ae319050dba09db"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/data/derived/prompt-selection.json",
+    "destination": "historical-execution/original/data/derived/prompt-selection.json",
+    "sha256": "64a1d39a2836c85997fbdcecb210765a1ec3ae6286d13c98e17396a230ca274a"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/data/derived/construct-registry.tsv",
+    "destination": "historical-execution/original/data/derived/construct-registry.tsv",
+    "sha256": "6d75e53dfccc4b0f6adb953ccad2c752fae20ddc87c42449e10645e3a16e082c"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/data/derived/model-inputs.json",
+    "destination": "historical-execution/original/data/derived/model-inputs.json",
+    "sha256": "d12ba078a186c2be2ccba53f8575ec2e489affd5eedb0ad5578c6945fbf766fd"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/data/derived/prompt-panel.json",
+    "destination": "historical-execution/original/data/derived/prompt-panel.json",
+    "sha256": "832a53b03bacd8d1970eb7635b85fa03acfc7ecf2fe33ececf8c515987eaa288"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/data/derived/source-reconciliation.json",
+    "destination": "historical-execution/original/data/derived/source-reconciliation.json",
+    "sha256": "5f1c051bdb2393d675128ff67ba02615234866bd3fbc6afd5b731f754bd069c0"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/tests/test_e1_pipeline.py",
+    "destination": "historical-execution/original/tests/test_e1_pipeline.py",
+    "sha256": "c0b6e330c4806667dfb234b211510a5a227207dd3be11100cd76e45945fa32c5"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/tests/test_stage_transition.py",
+    "destination": "historical-execution/original/tests/test_stage_transition.py",
+    "sha256": "41c0246f03a24f97783f09bc20894317bfae4ecbbc050177c404efa00295d2bc"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/tests/test_workspace_checks.py",
+    "destination": "historical-execution/original/tests/test_workspace_checks.py",
+    "sha256": "05cccbb61b173218fb3abaebff9d9824bc5847aec433f115a6f939f777115ac8"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/environment/model-assets-macmini.json",
+    "destination": "historical-execution/original/environment/model-assets-macmini.json",
+    "sha256": "8cea3d2bad2fdd0319f2c323ec72804f5c4959669b56b097d4f5a91b22fdc2fc"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/results/E2-arithmetic-verification.json",
+    "destination": "historical-execution/original/results/E2-arithmetic-verification.json",
+    "sha256": "7f2a0cd57a57b64c2bcf0ab52f18257a285e97a29f42c98291eecf374868b1bb"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/results/E2-full-control-verification.json",
+    "destination": "historical-execution/original/results/E2-full-control-verification.json",
+    "sha256": "2302e45815ffad998780fcd6e7b13d7866b10cad6176aef7c088d0d584b9bd6c"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/results/coverage.json",
+    "destination": "historical-execution/original/results/coverage.json",
+    "sha256": "b797f135f200b3ebd8187ea2882c696261e892863668954b24437ddb1af10f45"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/results/presentation-verification.json",
+    "destination": "historical-execution/original/results/presentation-verification.json",
+    "sha256": "683fc6d8beba4e74d0d1c6005d0ebf38319a710cccafad00416ff106beea611c"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/results/control-metrics.tsv",
+    "destination": "historical-execution/original/results/control-metrics.tsv",
+    "sha256": "3c1abef28dd17710e930a24bfdf271fb7e9c7ff744750fc2fa0bfe91fb177bbf"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/results/primary-metrics.tsv",
+    "destination": "historical-execution/original/results/primary-metrics.tsv",
+    "sha256": "f381caf72fd58e53c915274bc5ecec50d773ecf6c0033e7755656547c33d47da"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/followups/esm2-3b-20261111/job-3647838/exports/results-v1/e2/design/preparation.json",
+    "destination": "historical-execution/3b/design/preparation.json",
+    "sha256": "4af220988a4299367f1f37c1de82ee9fafef3ee6295f3ae068f85a199939d593"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/followups/esm2-3b-20261111/job-3647838/exports/results-v1/e2/design/execution-config.json",
+    "destination": "historical-execution/3b/design/execution-config.json",
+    "sha256": "c825b6738fdc0b4589e22871523881910b7b1280b80a9a84b7e027951ae8c87a"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/followups/esm2-3b-20261111/job-3647838/exports/results-v1/e2/design/run-plan.json",
+    "destination": "historical-execution/3b/design/run-plan.json",
+    "sha256": "e3aca794284916e12cbd6fab1d9a1b962494d61011288545c9d2e9ddee0836ee"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/followups/esm2-3b-20261111/job-3647838/exports/results-v1/e2/design/qualification-inputs.json",
+    "destination": "historical-execution/3b/design/qualification-inputs.json",
+    "sha256": "dddcc0b7634cd752ba0b18bbfd804110385158aef5d29ecfa3ab9dc237814248"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/followups/esm2-3b-20261111/job-3647838/exports/results-v1/e2/data/derived/model-inputs.json",
+    "destination": "historical-execution/3b/data/derived/model-inputs.json",
+    "sha256": "d12ba078a186c2be2ccba53f8575ec2e489affd5eedb0ad5578c6945fbf766fd"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/followups/esm2-3b-20261111/job-3647838/exports/results-v1/e2/data/derived/prompt-panel.json",
+    "destination": "historical-execution/3b/data/derived/prompt-panel.json",
+    "sha256": "832a53b03bacd8d1970eb7635b85fa03acfc7ecf2fe33ececf8c515987eaa288"
+  },
+  {
+    "source": "infrastructure/picasso/esm2-3b-20261111-v3/scripts/test_hook_layout.py",
+    "destination": "historical-execution/3b/scripts/test_hook_layout.py",
+    "sha256": "a4ad0e3f8bf4b249b6cf13d6e5678caca1e150fe6be1322c778790869659c64e"
+  },
+  {
+    "source": "infrastructure/picasso/esm2-3b-20261111-v3/scripts/analyse_results.py",
+    "destination": "historical-execution/3b/scripts/analyse_results.py",
+    "sha256": "9f6f6e7aef308861a27f94e6b968c6015a1c014bed8ef38277d4f6d839b322f8"
+  },
+  {
+    "source": "infrastructure/picasso/esm2-3b-20261111-v3/scripts/smoke_3b.py",
+    "destination": "historical-execution/3b/scripts/smoke_3b.py",
+    "sha256": "610a5aec1542eb2069306de386248edcca946dd241a8edf06464106d6a81feb0"
+  },
+  {
+    "source": "infrastructure/picasso/esm2-3b-20261111-v3/scripts/verify_download.py",
+    "destination": "historical-execution/3b/scripts/verify_download.py",
+    "sha256": "c2c187ffb488500f1527dbf482df4af1e7109b5d7f6614ac4d64f76257a3caa0"
+  },
+  {
+    "source": "infrastructure/picasso/esm2-3b-20261111-v3/scripts/test_preparation.py",
+    "destination": "historical-execution/3b/scripts/test_preparation.py",
+    "sha256": "69810a4abb6edbffb7918103178c80cfe9cc7285ecbb213a40a67442849017ce"
+  },
+  {
+    "source": "infrastructure/picasso/esm2-3b-20261111-v3/scripts/run_experiments.py",
+    "destination": "historical-execution/3b/scripts/run_experiments.py",
+    "sha256": "abf34df2e486cafae8f1d107e30fffebed288e5db9b5c2f4e6a62a273da3ed0d"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/followups/esm2-3b-20261111/postprocess/package_e2_results.py",
+    "destination": "historical-execution/3b/postprocess/package_e2_results.py",
+    "sha256": "af3952ec0799ae3fc0effa0f3c91c3a63e59ba896d57e91aa0f1fb0a975d40c8"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/followups/esm2-3b-20261111/postprocess/verify_e2.py",
+    "destination": "historical-execution/3b/postprocess/verify_e2.py",
+    "sha256": "9f49792f5e3443110764bc19aafe701a900b1500be73b66945abe64556814eee"
+  },
+  {
+    "source": "infrastructure/picasso/esm2-3b-20261111-v3/checkpoint-manifest.json",
+    "destination": "historical-execution/3b/checkpoint-manifest.json",
+    "sha256": "709e08b128d33d8b067aa6734d461929ef05c8b466596789fe5be2d2e1744432"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/followups/esm2-3b-20261111/job-3647838/exports/results-v1/e2/results/arithmetic-verification.json",
+    "destination": "historical-execution/3b/results/arithmetic-verification.json",
+    "sha256": "1802e7e3d14fac72fa2275e8bfb47d164778a097fcd7d672f53d92485d7824ba"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/followups/esm2-3b-20261111/job-3647838/exports/results-v1/e2/results/coverage.json",
+    "destination": "historical-execution/3b/results/coverage.json",
+    "sha256": "89e9ec7e055a87c8c63eb06728d0149cbc8604e9787d447ee928d574b14db662"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/followups/esm2-3b-20261111/job-3647838/exports/results-v1/e2/results/presentation-verification.json",
+    "destination": "historical-execution/3b/results/presentation-verification.json",
+    "sha256": "0048a6b63be32d90507bdeaa4ead436914a49bda58b036b404720afaa36ba55d"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/paper/overleaf-etv4/provenance/checkpoint-b-data-provenance.json",
+    "destination": "provenance/checkpoint-b-data-provenance.json",
+    "sha256": "c13649dd17d8bd14bfb91107e1bb9e1ae53505b958b99b5b925f6d895803e929"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/paper/overleaf-etv4/provenance/checkpoint-b-verification.json",
+    "destination": "provenance/checkpoint-b-verification.json",
+    "sha256": "b74c8d0003c2ea081b3bfb8c8f72804dc7641c163d7802c28b9052504f0c4bbc"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/paper/overleaf-etv4/provenance/model-manifest-original.json",
+    "destination": "provenance/model-manifest-original.json",
+    "sha256": "cff783d83efbc571b46199c52d91b8b8f28d7c5fbff06f7b4148fcc6d9579126"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/paper/overleaf-etv4/provenance/execution-config-3b.json",
+    "destination": "provenance/execution-config-3b.json",
+    "sha256": "c825b6738fdc0b4589e22871523881910b7b1280b80a9a84b7e027951ae8c87a"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/paper/overleaf-etv4/provenance/literature-evidence-map.tsv",
+    "destination": "provenance/literature-evidence-map.tsv",
+    "sha256": "b3d38416768f5618717e5fbdee6caf919a755c7d6e32b86d558d4cd0e7baa55f"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/paper/overleaf-etv4/compile.sh",
+    "destination": "supplement/compile.sh",
+    "sha256": "38cbd051fd24892a8125383b2b2d3d82c05aba1b63f7feba40cd48113bd634e0"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/paper/overleaf-etv4/latexmkrc",
+    "destination": "supplement/latexmkrc",
+    "sha256": "ce51ff3537ad3503f6426546c44f68f57763790d49f12161b3b75cfeb5d16648"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/verify_e0.py",
+    "destination": "historical-execution/original/scripts/verify_e0.py",
+    "sha256": "7e781ea5fac02d34da09622f17bb126b9f3af3468f8508c4566c75d125d29591"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/analyse_results.py",
+    "destination": "historical-execution/original/scripts/analyse_results.py",
+    "sha256": "96b6dc342b1f098eb63c5506aa854963c660fb2c6224129a93aa99df67b0fc3f"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/package_e2_results.py",
+    "destination": "historical-execution/original/scripts/package_e2_results.py",
+    "sha256": "6b85fc543e5287789d280c1c6f841fd0a8d92548cd13828c08c7c3b804bd5f59"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/verify_e1.py",
+    "destination": "historical-execution/original/scripts/verify_e1.py",
+    "sha256": "421f8bc9bb8f820c980712766d7cadeb131b25207d8181ea483c1bbc54ddc1ff"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/verify_e2_controls.py",
+    "destination": "historical-execution/original/scripts/verify_e2_controls.py",
+    "sha256": "c8dedc788a301b7384d38b301f703150d2811e9f4ad93cb1d4f15551eb69d323"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/freeze_e2_export.py",
+    "destination": "historical-execution/original/scripts/freeze_e2_export.py",
+    "sha256": "10c84d15520c1aa7d4b271b1eaa05065e38a78347292382375ab98918aed432e"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/check_environment.py",
+    "destination": "historical-execution/original/scripts/check_environment.py",
+    "sha256": "04542516a3899164bb4454ead2bed3341f0e9770f69333cc0ced57b7ab0cad97"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/verify_model_assets.py",
+    "destination": "historical-execution/original/scripts/verify_model_assets.py",
+    "sha256": "7d784af7a69c64a03adf85da1d9a1997de6ac920631452a15d0f7ad4af6e8d90"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/qualify_models.py",
+    "destination": "historical-execution/original/scripts/qualify_models.py",
+    "sha256": "68f47a9e517d1aa106500cbf9539d04e805ef7fb83975bb9e1b0373ff71a10f6"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/build_paper.py",
+    "destination": "historical-execution/original/scripts/build_paper.py",
+    "sha256": "e202ff35ba0f53f93ae1cb3afa3dacf42a5597f442b08fe2a0bf86eb2006505b"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/e2_pair_baselines.py",
+    "destination": "historical-execution/original/scripts/e2_pair_baselines.py",
+    "sha256": "26002203cb6d40ecfde87a12b394f4531f7ed5660e730ddf19b28eb6993e2c97"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/check_stage_transition.py",
+    "destination": "historical-execution/original/scripts/check_stage_transition.py",
+    "sha256": "d96a0f1b161785072f87dc0304da05af5fb223c26178d5df74c94139beb77238"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/e2_execution_monitor.py",
+    "destination": "historical-execution/original/scripts/e2_execution_monitor.py",
+    "sha256": "755e06ae3983ae760248734048143dcd43fa00022e5cca4ff4a9c0699d35f8af"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/e2_preflight.py",
+    "destination": "historical-execution/original/scripts/e2_preflight.py",
+    "sha256": "96f8c8201be749617f8269d9c8d343c11a3f34681ab36bf386b40a4f7869ae18"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/verify_e2.py",
+    "destination": "historical-execution/original/scripts/verify_e2.py",
+    "sha256": "aeef5121e68ca522244946ac26e9445f34f700a53f778c7e6939ad98b319d055"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/prepare_e0.py",
+    "destination": "historical-execution/original/scripts/prepare_e0.py",
+    "sha256": "584b125a27d22f33b9a6e539da674a7bafdb59d2cd749bbd858240f9a914d8da"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/run_experiments.py",
+    "destination": "historical-execution/original/scripts/run_experiments.py",
+    "sha256": "49c5a5a2cd957d1f4d7458e8009830195554001381e306a8f38e9d561b21cc00"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/check_workspace.py",
+    "destination": "historical-execution/original/scripts/check_workspace.py",
+    "sha256": "0e50cad67833dd674988a5e331f20fd06c80bec60724a10a3aa2af176cf0019a"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/followups/esm2-3b-20261111/job-3647838/exports/results-v1/local-analysis/compare-models.py",
+    "destination": "historical-execution/3b-analysis/compare-models.py",
+    "sha256": "4ae98c3753b194b9833df69caab472750c8e2ad5d23fa1e7690a30404b338350"
+  },
+  {
+    "source": "pilot/ets-regulatory-context/followups/esm2-3b-20261111/job-3647838/exports/results-v1/local-analysis/run-local-analysis.py",
+    "destination": "historical-execution/3b-analysis/run-local-analysis.py",
+    "sha256": "6c2fc0eb45a7224c52d4977ed754acf3ef7a21161496739ff5fa1c5fa69eb0e2"
+  }
+]

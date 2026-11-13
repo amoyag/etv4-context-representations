@@ -1,0 +1,54 @@
+{
+  "sources": [
+    {
+      "path": "exports/results-v1/results/E2-analysis-v1.json",
+      "sha256": "dc5d35b481c9de6ac8d6f88a3c2d76928c0043af0a327740ac5881b0914dc502"
+    },
+    {
+      "path": "followups/esm2-3b-20261111/job-3647838/exports/results-v1/e2/results/E2-3B-analysis.json",
+      "sha256": "d15441709fb0ebd85b302ffc182f5ae1620f2387b23fc87bc36f5f3242b69f2c"
+    },
+    {
+      "path": "exports/results-v1/data/derived/construct-registry.tsv",
+      "sha256": "6d75e53dfccc4b0f6adb953ccad2c752fae20ddc87c42449e10645e3a16e082c"
+    },
+    {
+      "path": "exports/results-v1/data/derived/measurement-registry.tsv",
+      "sha256": "546e655f03a6ff1cb9bb1baeae06fce8cf6c697c16629a822ae319050dba09db"
+    },
+    {
+      "path": "exports/results-v1/data/derived/prompt-panel.json",
+      "sha256": "832a53b03bacd8d1970eb7635b85fa03acfc7ecf2fe33ececf8c515987eaa288"
+    },
+    {
+      "path": "design/protocol-v1.md",
+      "sha256": "638d1e095a0dd9f0fe311ff2d119c590cedf8431a5fb33643527bf87b1870069"
+    },
+    {
+      "path": "sources/source-audit.md",
+      "sha256": "573d8576141b09d0d18fd1463808e492bd5be6c026ef94edcdf7bdd36226f0eb"
+    }
+  ],
+  "scope": "Frozen-summary extraction and presentation only; no inference or threshold changes",
+  "source_rows": {
+    "esm-primary.tsv": 10,
+    "esm-all-fixed-blocks.tsv": 30,
+    "esm-primary-shuffles.tsv": 200,
+    "esm-wt-factorial.tsv": 42,
+    "esm-native-order-margins.tsv": 6,
+    "profam-prompt-responses.tsv": 93,
+    "profam-NID-shuffles.tsv": 420,
+    "profam-vector-contrasts.tsv": 30,
+    "profam-order-contrasts.tsv": 45,
+    "profam-matched-norm-differences.tsv": 30
+  },
+  "checks": [
+    "Source SHA256 identities",
+    "Ratios and lower numerical bound arithmetic",
+    "Native-order classification and all reported genotype counts",
+    "Table float round trips",
+    "Seven published WT KD rows converted from 1e-11 M to nM"
+  ],
+  "figure_note": "New presentation under Checkpoint B; original exports and figures untouched",
+  "independent_review": false
+}

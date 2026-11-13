@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "actor": "Codex /root; separately implemented arithmetic, same agent",
+  "checked_at": "2026-11-13T06:07:16.762222+01:00",
+  "numeric_comparisons": 28311,
+  "max_absolute_difference": 6.661338147750939e-16,
+  "comparison_tolerance": "2e-12 relative, 2e-14 absolute for float64 reconstruction only; scientific eta unchanged",
+  "all_numeric_analysis_fields_checked": true,
+  "source_analysis": "results/E2-3B-analysis.json",
+  "source_analysis_sha256": "d15441709fb0ebd85b302ffc182f5ae1620f2387b23fc87bc36f5f3242b69f2c",
+  "raw_arrays": 217,
+  "manifest_hashes": [
+    {
+      "path": "results/activations/esm2_3b/manifest.json",
+      "sha256": "bbb48683c66cac869e3ce8b18d3752bbd86d3f421411b87b14c2d9dfa111929a"
+    }
+  ]
+}

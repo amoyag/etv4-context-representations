@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "status": "frozen",
+  "frozen_at": "2026-11-10T14:22:37.227833+00:00",
+  "stage": "E1",
+  "E2_authorized": false,
+  "threads": 4,
+  "interop_threads": 1,
+  "batch_size": 1,
+  "seed": 19001,
+  "warmups": 0,
+  "one_resident_model": true,
+  "gradients": false,
+  "eval": true,
+  "use_cache": false,
+  "precision": "float32 parameters and stored activations; float64 normalization and summaries",
+  "padding": false,
+  "truncation": false,
+  "layers_convention": "Post-transformer-block residual, before model-wide final normalisation; hook identity checked on every forward.",
+  "models": {
+    "esm2_650m": {
+      "device": "mps",
+      "dtype": "float32",
+      "width": 1280,
+      "layers": [
+        17,
+        22,
+        33
+      ],
+      "eta": {
+        "17": 0.00044741160090236014,
+        "22": 0.00036448990908268084,
+        "33": 0.00019026842980369673
+      }
+    },
+    "profam1": {
+      "device": "mps",
+      "dtype": "float32",
+      "width": 1024,
+      "layers": [
+        8,
+        11,
+        16
+      ],
+      "eta": {
+        "8": 6.744589170358099e-05,
+        "11": 5.5237209778149116e-05,
+        "16": 4.471244960571287e-06
+      }
+    }
+  },
+  "eta_rule": "max(1e-7, 10 * max(pairwise repeat discrepancy, CPU-MPS discrepancy)); maximum per-residue L2 distance of float64-normalized stored vectors over every artificial case.",
+  "E2_run_counts": {
+    "esm2_650m": 217,
+    "profam1": 277
+  },
+  "storage": {
+    "root": "results/activations/<new-run-id>",
+    "format": "One uncompressed float32 NPZ per scheduled row; full target at three selected blocks; no attention matrices or full-logit storage.",
+    "retain_raw": true,
+    "planned_bytes": 2036723712,
+    "two_copy_bytes": 4073447424,
+    "git_policy": "Large raw activations ignored; receipts/hashes/logs retained. Syncthing settings unchanged."
+  },
+  "resources": {
+    "estimated_at": "2026-11-10T15:20:56.516213+01:00",
+    "export_freeze": "2026-11-12T16:00:00+01:00",
+    "model_seconds_2x": 1197.4175381807145,
+    "analysis_planning_allowance_seconds": 3600,
+    "projected_core_seconds_including_allowance": 4797.4175381807145,
+    "available_seconds": 175143.483787,
+    "fits_before_freeze": true,
+    "disk_free_bytes": 252531605504,
+    "activation_storage_bytes_2x": 4073447424,
+    "assumption": "Prompt E2 activation after author review and otherwise available local host; timing does not schedule or authorize E2."
+  },
+  "frozen_files": [
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/esm/model/esm2.py",
+      "sha256": "aadad74d5c2a5b85786390df4071466acc57e028279fe499c97c473125e0d9f4"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/esm/modules.py",
+      "sha256": "6a82388514f8a9a6e67a5636277df5e7a5864421f392b45f3da80717500c57d9"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/esm/multihead_attention.py",
+      "sha256": "81bfc52ff93431d2384562c657cb0578dee8677fb9663babeec1239155b2cbc0"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/esm/pretrained.py",
+      "sha256": "2104beefc2eec254fb01143b14b89856d03cecf1fb698d1951e0c5c0cbf4a59f"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/profam/checkpoint.py",
+      "sha256": "f65fa9585149127315a41312488e84930331e83e0f6445d567473b85b49053d0"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/profam/data/tokenizers.py",
+      "sha256": "d27d87b3b989c59ff895a68eabf5b9938c4775dd3d6c8e5f748a8cdc221565fc"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/profam/models/base.py",
+      "sha256": "5239481e4c5d500fb96876b3d444e35c84e5a31f2d3b8ed6c8e12f23fcd2ee43"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/profam/models/llama.py",
+      "sha256": "521c149ccd51e8f7f8950738856dfc9306cbf9c8ffe5b5c21f4cf9777b17237e"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py",
+      "sha256": "dc5abe49a98dec3b9026739dfbf2e9a8f3e5272b2916b3c2d404727ac931a013"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/transformers/masking_utils.py",
+      "sha256": "7a963feed8173b8265298dd24350c166222ce6b4719442fce48ab414d0478a6a"
+    },
+    {
+      "path": ".venv-macmini/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py",
+      "sha256": "31bf660a663259134324bc65da4e155951dc89c5ca46471d2325a9938e859e26"
+    },
+    {
+      "path": "design/frozen-protocol.json",
+      "sha256": "0c3604591b0a615fb369a6e5a174f80e092e499c456d43f5fad69029b3f4dd19"
+    },
+    {
+      "path": "design/qualification-inputs.json",
+      "sha256": "dddcc0b7634cd752ba0b18bbfd804110385158aef5d29ecfa3ab9dc237814248"
+    },
+    {
+      "path": "design/run-plan.json",
+      "sha256": "dce8332a6f3831fe5bc46d1fab49444225aa1c17e8b6e02d146a4ca2572517bc"
+    },
+    {
+      "path": "environment/E1-technical-plan.md",
+      "sha256": "110896d7c27af44b17329124076a674e250554b84192c872c286d7d6cd8ad0fd"
+    },
+    {
+      "path": "environment/env.sh",
+      "sha256": "76e60511745a75c64c8bfc3e8e80a19b6eb5e1c309161ff3445162dccac10e06"
+    },
+    {
+      "path": "environment/macmini.sh",
+      "sha256": "6b2e5a8a2eea3f3f57de5baa45cb2acc48365f1ae2e73552a2dd073c14a5b7c2"
+    },
+    {
+      "path": "environment/model-manifest.json",
+      "sha256": "cff783d83efbc571b46199c52d91b8b8f28d7c5fbff06f7b4148fcc6d9579126"
+    },
+    {
+      "path": "environment/qualification.json",
+      "sha256": "e8099ccef9b1f1401db43b15e46bc7f97809e792d987e8e2831230504ae60844"
+    },
+    {
+      "path": "environment/requirements-macmini.lock.txt",
+      "sha256": "642f994db077d078e397b394264502105b6002d4476126d5ae29151c2bd03031"
+    },
+    {
+      "path": "models/esm2/esm2_t33_650M_UR50D-contact-regression.pt",
+      "sha256": "8ffe6edbd4173dc8d45c2cd5cb27d43aad77ec26b4c768200c58ae1f96693575"
+    },
+    {
+      "path": "models/esm2/esm2_t33_650M_UR50D.pt",
+      "sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c"
+    },
+    {
+      "path": "models/profam-1/.hydra/config.yaml",
+      "sha256": "46c017cf10446f0c820940783f51167ec98107d5376bc8df7bb490a051f31e42"
+    },
+    {
+      "path": "models/profam-1/checkpoints/last.ckpt",
+      "sha256": "8ec54d80323f188d3454fb4457f63f12158fe55552b919554806b12730c30e08"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-cpu-01/report.json",
+      "sha256": "7fb21fbbfd82788144079d996ba1e805de1f07f6476c4673c24a594c18389b5c"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-cpu-02/report.json",
+      "sha256": "968548ff2b4f10518b34aac5e0efbbc49359eeea07a94df1e4d76735034213f7"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-mps-01/report.json",
+      "sha256": "49d8c3a138e79c9decd7f7b51707120aa8a73b252119d12a43f734f6ebbdc2ad"
+    },
+    {
+      "path": "results/qualification/E1-20261110-esm-visibility-01/report.json",
+      "sha256": "ed5d7148141aa09cc2f42893abf2270c793bc8a1bd049f141da093ff61153a97"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-01/report.json",
+      "sha256": "ac7b946b673b49b955a99630061752c7b2a4087a0d7696af52649c2a61936a74"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-cpu-02/report.json",
+      "sha256": "d7054a1632a8a8a2684bd36ad1505b70c964ffdab2b607ca9a81d51db8f277a3"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-memory-01/report.json",
+      "sha256": "5edd30a6314085e76d8204d5584d7de0cfec3c5805c2aace73435998d6c3de4b"
+    },
+    {
+      "path": "results/qualification/E1-20261110-profam-mps-01/report.json",
+      "sha256": "54a10bc2a87edb496334d3efe101df0c8585ee64483f26433822968c2d918e6d"
+    },
+    {
+      "path": "scripts/analyse_results.py",
+      "sha256": "96b6dc342b1f098eb63c5506aa854963c660fb2c6224129a93aa99df67b0fc3f"
+    },
+    {
+      "path": "scripts/check_workspace.py",
+      "sha256": "0e50cad67833dd674988a5e331f20fd06c80bec60724a10a3aa2af176cf0019a"
+    },
+    {
+      "path": "scripts/qualify_models.py",
+      "sha256": "68f47a9e517d1aa106500cbf9539d04e805ef7fb83975bb9e1b0373ff71a10f6"
+    },
+    {
+      "path": "scripts/run_experiments.py",
+      "sha256": "49c5a5a2cd957d1f4d7458e8009830195554001381e306a8f38e9d561b21cc00"
+    },
+    {
+      "path": "scripts/verify_e1.py",
+      "sha256": "421f8bc9bb8f820c980712766d7cadeb131b25207d8181ea483c1bbc54ddc1ff"
+    },
+    {
+      "path": "tests/test_e1_pipeline.py",
+      "sha256": "c0b6e330c4806667dfb234b211510a5a227207dd3be11100cd76e45945fa32c5"
+    },
+    {
+      "path": "tests/test_workspace_checks.py",
+      "sha256": "05cccbb61b173218fb3abaebff9d9824bc5847aec433f115a6f939f777115ac8"
+    }
+  ]
+}

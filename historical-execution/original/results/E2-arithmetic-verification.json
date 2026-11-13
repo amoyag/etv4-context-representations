@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "actor": "Codex /root; separately implemented arithmetic, same agent",
+  "checked_at": "2026-11-10T18:32:49.467533+01:00",
+  "numeric_comparisons": 78789,
+  "max_absolute_difference": 1.9984014443252818e-15,
+  "comparison_tolerance": "2e-12 relative, 2e-14 absolute for float64 reconstruction only; scientific eta unchanged",
+  "all_numeric_analysis_fields_checked": true,
+  "source_analysis": "results/E2-analysis-v1.json",
+  "source_analysis_sha256": "dc5d35b481c9de6ac8d6f88a3c2d76928c0043af0a327740ac5881b0914dc502",
+  "raw_arrays": 494,
+  "manifest_hashes": [
+    {
+      "path": "results/activations/E2-20261110-esm-mps-01/manifest.json",
+      "sha256": "5b21c5b9afd21bf6bb555df5c20d178367eef8832fc8eb5d431ebdeef8d68ffd"
+    },
+    {
+      "path": "results/activations/E2-20261110-profam-mps-01/manifest.json",
+      "sha256": "4614b625f1f3b9bbfe8cc1ae83fed581ddc643231d3a9a665dbc7de60256e48c"
+    }
+  ]
+}

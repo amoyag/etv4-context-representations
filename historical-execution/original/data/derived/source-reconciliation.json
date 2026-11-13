@@ -1,0 +1,59 @@
+{
+  "source_hash_checks": [
+    {
+      "id": "Currie_NAR_2017",
+      "sha256": "c7f90f35c8cc0792741cc3d5f65678a53c0ba683b0caa05950e78ab811f1bae2",
+      "passed": true
+    },
+    {
+      "id": "Currie_NAR_2017_supplement",
+      "sha256": "ac39ff8bc18884a250cbc3237bcbb2bc1cd891d96026a9eb7157495af78d30db",
+      "passed": true
+    },
+    {
+      "id": "ETV4_UniProt",
+      "sha256": "cf0c49498b0c61e3652036bb0b6d817adb2192f45476a941e2618ead1babfb13",
+      "passed": true
+    },
+    {
+      "id": "homologue_candidates",
+      "sha256": "7b6f14e632685be9582ef3174dbd450ee8202a1f404773afb0e0a8fd8c2d5573",
+      "passed": true
+    },
+    {
+      "id": "control_candidates",
+      "sha256": "3f49b27a37f4ec6cae93b031209e0892ff0eba719b61f89cf215695e71d8cb1f",
+      "passed": true
+    },
+    {
+      "id": "Wells_ProFam_2025",
+      "sha256": "3df0f67801d1558a9ed4a034bc5a7a292a7bf2ad5d79cd3893b4e53780c04b79",
+      "passed": true
+    }
+  ],
+  "ETV4_S1_unique_chunks": [
+    "MERRMKAGYLDQQVPYTFSSKSPGNGSLREALIGPLGKLMDPGSLPPLDSEDLFQDLSHF",
+    "QETWLAEAQVPDSDEQ--FVPDFHS-----------ENLAFH-------SPT-----TRI",
+    "KK--EPQSPRTDPALSCSRKPPLPYH---HGEQCLYSS-AYD----PPRQIAIK------",
+    "------SPAPGALGQSPLQPFP-----R-------------------------------A",
+    "EQRNFLRSSGTS------------------------QP------HPGHG--YLGEHSSVF",
+    "QQPLDICHSFTSQGGGREPLPAP--YQHQL--SEPCP---------PYPQQSFKQEYHDP",
+    "LYEQAGQPAVDQGGVN---GHRYPGAGVVIKQEQTDF-AYDSDVTGCASMYL--------",
+    "----------------------------------------------HTEGFSGPSPGD-G",
+    "AMGYGYEKPLRPFPDDVCVVPEKFEGDIKQEGVGAFREGPPYQRRGALQLWQFLVALLDD",
+    "PTNAHFIAWTGRG-MEFKLIEPEEVARLWGIQKNRPAMNYDKLSRSLRYYYEKGIMQKVA",
+    "GERYVYKFVCEPEALFSLAFPDNQRPALKAEFDRPV---------------SEEDTVPLS",
+    "---HLDESPAYLPELAG-----------PAQPFGPKGGYSY"
+  ],
+  "S1_matches_UniProt": true,
+  "accession": "P43268",
+  "sequence_version": 3,
+  "sequence_sha256": "1c0d2845570cb915d60745be6b372961c7f236613a17e32b18ef99b08752fb8f",
+  "number_native_constructs": 17,
+  "number_measurement_records": 30,
+  "WT_factorial_log_interaction": 0.9328200338253656,
+  "WT_factorial_ratio": 2.5416666666666665,
+  "WT_factorial_error": "No SE computed: covariance/raw data unavailable",
+  "EMSA_scars": "Not specified; no exact scar claim",
+  "ETV1_optional_excluded": "Source 479 residues; current canonical P50549 477; no substitution of coordinates"
+}

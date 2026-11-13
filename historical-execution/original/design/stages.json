@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "stages": {
+    "E0": {
+      "requires": [],
+      "outputs": [
+        "design/protocol-v1.md",
+        "design/frozen-protocol.json",
+        "design/run-plan.json",
+        "data/derived/construct-registry.tsv",
+        "data/derived/measurement-registry.tsv",
+        "sources/source-audit.md",
+        "reviews/design-review.md"
+      ],
+      "checks": [
+        "construct_identity",
+        "endpoint_provenance",
+        "visibility_design",
+        "panel_and_metrics_frozen",
+        "design_review"
+      ]
+    },
+    "E1": {
+      "requires": [
+        "E0"
+      ],
+      "outputs": [
+        "environment/model-manifest.json",
+        "environment/qualification.json",
+        "logs/E1-tests.txt",
+        "design/execution-config.json",
+        "scripts/run_experiments.py",
+        "scripts/analyse_results.py"
+      ],
+      "checks": [
+        "model_access_both",
+        "coordinates",
+        "causal_visibility",
+        "numerical_repeatability",
+        "resource_envelope",
+        "execution_config_frozen"
+      ]
+    },
+    "E2": {
+      "requires": [
+        "E1"
+      ],
+      "outputs": [
+        "results/coverage.json",
+        "results/primary-metrics.tsv",
+        "results/control-metrics.tsv",
+        "results/report.md",
+        "figures/fig1.pdf",
+        "figures/fig2.pdf",
+        "figures/fig3.pdf",
+        "exports/results-v1/manifest.json",
+        "logs/E2-verification.txt",
+        "handoff/intake/E2.json",
+        "logs/E2-intake.txt"
+      ],
+      "checks": [
+        "core_matrix_complete",
+        "frozen_design_respected",
+        "control_coverage",
+        "arithmetic_recomputed",
+        "figures_from_data",
+        "export_integrity",
+        "predecessor_output_evaluated"
+      ]
+    },
+    "W0": {
+      "requires": [
+        "E0",
+        "E1"
+      ],
+      "outputs": [
+        "handoff/W0-snapshot/introduction.tex",
+        "handoff/W0-snapshot/refs.bib",
+        "handoff/W0-snapshot/methods-plan.md",
+        "handoff/W0-snapshot/literature-claims.tsv",
+        "handoff/W0-snapshot/novelty-check.md",
+        "handoff/W0-snapshot/figure-storyboard.md",
+        "handoff/intake/W0.json",
+        "logs/W0-intake.txt"
+      ],
+      "checks": [
+        "source_identity",
+        "semantic_support",
+        "novelty_bounded",
+        "no_invented_results",
+        "methods_plan_matches_protocol",
+        "predecessor_output_evaluated"
+      ]
+    },
+    "W1": {
+      "requires": [
+        "E2",
+        "W0"
+      ],
+      "outputs": [
+        "paper/main.tex",
+        "paper/sections/abstract.tex",
+        "paper/sections/introduction.tex",
+        "paper/sections/methods.tex",
+        "paper/sections/results.tex",
+        "paper/sections/discussion.tex",
+        "paper/refs.bib",
+        "paper/build/main.pdf",
+        "paper/claims-to-results.tsv",
+        "logs/W1-build.txt",
+        "handoff/intake/W1.json",
+        "logs/W1-intake.txt"
+      ],
+      "checks": [
+        "claims_traceable",
+        "actual_methods",
+        "no_essential_placeholders",
+        "bibliography_resolved",
+        "pdf_compiled",
+        "predecessor_output_evaluated"
+      ]
+    },
+    "R0": {
+      "requires": [
+        "W1"
+      ],
+      "outputs": [
+        "reviews/scientific-review.md",
+        "reviews/evidence-review.md",
+        "reviews/disposition.json",
+        "reviews/visual-check.md",
+        "handoff/review-ready.json",
+        "handoff/REVIEW-GUIDE.md",
+        "handoff/section-3.5-candidate.md",
+        "exports/review-mvp-v1/manifest.json",
+        "exports/review-mvp-v1/manuscript.pdf",
+        "logs/R0-verification.txt",
+        "handoff/intake/R0.json",
+        "logs/R0-intake.txt"
+      ],
+      "checks": [
+        "scientific_review",
+        "evidence_review",
+        "central_findings_closed",
+        "contribution_supported",
+        "visual_inspection",
+        "final_export_integrity",
+        "author_review_guide",
+        "predecessor_output_evaluated"
+      ]
+    }
+  }
+}
