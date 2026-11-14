@@ -95,16 +95,6 @@
     "sha256": "c0b6e330c4806667dfb234b211510a5a227207dd3be11100cd76e45945fa32c5"
   },
   {
-    "source": "pilot/ets-regulatory-context/exports/results-v1/tests/test_stage_transition.py",
-    "destination": "historical-execution/original/tests/test_stage_transition.py",
-    "sha256": "41c0246f03a24f97783f09bc20894317bfae4ecbbc050177c404efa00295d2bc"
-  },
-  {
-    "source": "pilot/ets-regulatory-context/exports/results-v1/tests/test_workspace_checks.py",
-    "destination": "historical-execution/original/tests/test_workspace_checks.py",
-    "sha256": "05cccbb61b173218fb3abaebff9d9824bc5847aec433f115a6f939f777115ac8"
-  },
-  {
     "source": "pilot/ets-regulatory-context/environment/model-assets-macmini.json",
     "destination": "historical-execution/original/environment/model-assets-macmini.json",
     "sha256": "8cea3d2bad2fdd0319f2c323ec72804f5c4959669b56b097d4f5a91b22fdc2fc"
@@ -170,19 +160,9 @@
     "sha256": "832a53b03bacd8d1970eb7635b85fa03acfc7ecf2fe33ececf8c515987eaa288"
   },
   {
-    "source": "infrastructure/picasso/esm2-3b-20261111-v3/scripts/test_hook_layout.py",
-    "destination": "historical-execution/3b/scripts/test_hook_layout.py",
-    "sha256": "a4ad0e3f8bf4b249b6cf13d6e5678caca1e150fe6be1322c778790869659c64e"
-  },
-  {
     "source": "infrastructure/picasso/esm2-3b-20261111-v3/scripts/analyse_results.py",
     "destination": "historical-execution/3b/scripts/analyse_results.py",
     "sha256": "9f6f6e7aef308861a27f94e6b968c6015a1c014bed8ef38277d4f6d839b322f8"
-  },
-  {
-    "source": "infrastructure/picasso/esm2-3b-20261111-v3/scripts/smoke_3b.py",
-    "destination": "historical-execution/3b/scripts/smoke_3b.py",
-    "sha256": "610a5aec1542eb2069306de386248edcca946dd241a8edf06464106d6a81feb0"
   },
   {
     "source": "infrastructure/picasso/esm2-3b-20261111-v3/scripts/verify_download.py",
@@ -290,16 +270,6 @@
     "sha256": "c8dedc788a301b7384d38b301f703150d2811e9f4ad93cb1d4f15551eb69d323"
   },
   {
-    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/freeze_e2_export.py",
-    "destination": "historical-execution/original/scripts/freeze_e2_export.py",
-    "sha256": "10c84d15520c1aa7d4b271b1eaa05065e38a78347292382375ab98918aed432e"
-  },
-  {
-    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/check_environment.py",
-    "destination": "historical-execution/original/scripts/check_environment.py",
-    "sha256": "04542516a3899164bb4454ead2bed3341f0e9770f69333cc0ced57b7ab0cad97"
-  },
-  {
     "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/verify_model_assets.py",
     "destination": "historical-execution/original/scripts/verify_model_assets.py",
     "sha256": "7d784af7a69c64a03adf85da1d9a1997de6ac920631452a15d0f7ad4af6e8d90"
@@ -310,29 +280,9 @@
     "sha256": "68f47a9e517d1aa106500cbf9539d04e805ef7fb83975bb9e1b0373ff71a10f6"
   },
   {
-    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/build_paper.py",
-    "destination": "historical-execution/original/scripts/build_paper.py",
-    "sha256": "e202ff35ba0f53f93ae1cb3afa3dacf42a5597f442b08fe2a0bf86eb2006505b"
-  },
-  {
     "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/e2_pair_baselines.py",
     "destination": "historical-execution/original/scripts/e2_pair_baselines.py",
     "sha256": "26002203cb6d40ecfde87a12b394f4531f7ed5660e730ddf19b28eb6993e2c97"
-  },
-  {
-    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/check_stage_transition.py",
-    "destination": "historical-execution/original/scripts/check_stage_transition.py",
-    "sha256": "d96a0f1b161785072f87dc0304da05af5fb223c26178d5df74c94139beb77238"
-  },
-  {
-    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/e2_execution_monitor.py",
-    "destination": "historical-execution/original/scripts/e2_execution_monitor.py",
-    "sha256": "755e06ae3983ae760248734048143dcd43fa00022e5cca4ff4a9c0699d35f8af"
-  },
-  {
-    "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/e2_preflight.py",
-    "destination": "historical-execution/original/scripts/e2_preflight.py",
-    "sha256": "96f8c8201be749617f8269d9c8d343c11a3f34681ab36bf386b40a4f7869ae18"
   },
   {
     "source": "pilot/ets-regulatory-context/exports/results-v1/scripts/verify_e2.py",
@@ -358,10 +308,5 @@
     "source": "pilot/ets-regulatory-context/followups/esm2-3b-20261111/job-3647838/exports/results-v1/local-analysis/compare-models.py",
     "destination": "historical-execution/3b-analysis/compare-models.py",
     "sha256": "4ae98c3753b194b9833df69caab472750c8e2ad5d23fa1e7690a30404b338350"
-  },
-  {
-    "source": "pilot/ets-regulatory-context/followups/esm2-3b-20261111/job-3647838/exports/results-v1/local-analysis/run-local-analysis.py",
-    "destination": "historical-execution/3b-analysis/run-local-analysis.py",
-    "sha256": "6c2fc0eb45a7224c52d4977ed754acf3ef7a21161496739ff5fa1c5fa69eb0e2"
   }
 ]

@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-14",
+  "removed_from_current_tree": {
+    "historical-execution/3b/scripts/smoke_3b.py": "Picasso one-forward infrastructure smoke check; not study result",
+    "historical-execution/3b/scripts/test_hook_layout.py": "Tiny untrained model used to debug Picasso hook layout",
+    "historical-execution/3b-analysis/run-local-analysis.py": "Machine-specific local orchestration wrapper; actual analysis/verification code retained",
+    "historical-execution/original/scripts/build_paper.py": "Obsolete internal manuscript generator",
+    "historical-execution/original/scripts/check_environment.py": "Internal environment inspection utility; recorded environment retained",
+    "historical-execution/original/scripts/check_stage_transition.py": "Internal workflow authorization/intake tool",
+    "historical-execution/original/scripts/e2_execution_monitor.py": "Internal execution monitoring",
+    "historical-execution/original/scripts/e2_preflight.py": "Internal stage preflight; scientific configuration and checks retained",
+    "historical-execution/original/scripts/freeze_e2_export.py": "Internal export/snapshot utility",
+    "historical-execution/original/tests/test_stage_transition.py": "Tests of internal workflow authorization",
+    "historical-execution/original/tests/test_workspace_checks.py": "Tests of internal workflow receipts",
+    "supplement/build_source.py": "Superseded generator could overwrite author-edited supplement"
+  },
+  "preservation": "Original frozen project inputs and prior Git history retained; no destructive history rewrite",
+  "supplement_source": "Overleaf 6af750921e9e086c3d6d916d, supplement.tex",
+  "supplement_sha256": "845459533d88c2d2290b6e2d0896f1db2763c3ccc815093cfa233fb1f029af9d"
+}

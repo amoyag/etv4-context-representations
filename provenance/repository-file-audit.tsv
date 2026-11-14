@@ -1,0 +1,112 @@
+path	disposition	reason
+.gitignore	retained_or_updated	Documentation, reproduction requirements, or verification entry point
+DATA-DICTIONARY.md	retained_or_updated	Documentation, reproduction requirements, or verification entry point
+README.md	retained_or_updated	Documentation, reproduction requirements, or verification entry point
+REPRODUCIBILITY.md	retained_or_updated	Documentation, reproduction requirements, or verification entry point
+RIGHTS-AND-RELEASE.md	retained_or_updated	Documentation, reproduction requirements, or verification entry point
+data/esm-all-fixed-blocks.tsv	retained_or_updated	Processed numerical results supporting manuscript figures/tables
+data/esm-native-order-margins.tsv	retained_or_updated	Processed numerical results supporting manuscript figures/tables
+data/esm-primary-shuffles.tsv	retained_or_updated	Processed numerical results supporting manuscript figures/tables
+data/esm-primary.tsv	retained_or_updated	Processed numerical results supporting manuscript figures/tables
+data/esm-wt-factorial.tsv	retained_or_updated	Processed numerical results supporting manuscript figures/tables
+data/profam-NID-shuffles.tsv	retained_or_updated	Processed numerical results supporting manuscript figures/tables
+data/profam-matched-norm-differences.tsv	retained_or_updated	Processed numerical results supporting manuscript figures/tables
+data/profam-order-contrasts.tsv	retained_or_updated	Processed numerical results supporting manuscript figures/tables
+data/profam-prompt-responses.tsv	retained_or_updated	Processed numerical results supporting manuscript figures/tables
+data/profam-vector-contrasts.tsv	retained_or_updated	Processed numerical results supporting manuscript figures/tables
+data/published-WT-affinities.tsv	retained_or_updated	Processed numerical results supporting manuscript figures/tables
+docs/etv4-supplement-v1.pdf	retained_or_updated	Supplement source or convenience PDF; formal supplement should accompany preprint
+figures/fig1-design.pdf	retained_or_updated	Reviewed figure outputs; convenient but regenerable
+figures/fig2-mutation-responses.pdf	retained_or_updated	Reviewed figure outputs; convenient but regenerable
+figures/fig3-order-controls.pdf	retained_or_updated	Reviewed figure outputs; convenient but regenerable
+figures/fig4-profam-conditioning.pdf	retained_or_updated	Reviewed figure outputs; convenient but regenerable
+historical-execution/3b-analysis/compare-models.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/3b-analysis/run-local-analysis.py	removed	Machine-specific local orchestration wrapper; actual analysis/verification code retained
+historical-execution/3b/checkpoint-manifest.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/3b/data/derived/model-inputs.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/3b/data/derived/prompt-panel.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/3b/design/execution-config.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/3b/design/preparation.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/3b/design/qualification-inputs.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/3b/design/run-plan.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/3b/postprocess/package_e2_results.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/3b/postprocess/verify_e2.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/3b/results/arithmetic-verification.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/3b/results/coverage.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/3b/results/presentation-verification.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/3b/scripts/analyse_results.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/3b/scripts/run_experiments.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/3b/scripts/smoke_3b.py	removed	Picasso one-forward infrastructure smoke check; not study result
+historical-execution/3b/scripts/test_hook_layout.py	removed	Tiny untrained model used to debug Picasso hook layout
+historical-execution/3b/scripts/test_preparation.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/3b/scripts/verify_download.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/data/derived/construct-registry.tsv	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/data/derived/measurement-registry.tsv	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/data/derived/model-inputs.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/data/derived/prompt-panel.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/data/derived/prompt-selection.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/data/derived/source-reconciliation.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/design/E0-selection-rules.md	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/design/execution-config.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/design/frozen-protocol.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/design/protocol-v1.md	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/design/qualification-inputs.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/design/run-plan.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/design/stage-intake-policy.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/design/stages.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/environment/E1-technical-plan.md	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/environment/model-assets-macmini.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/environment/model-manifest.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/environment/qualification.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/environment/requirements-macmini.lock.txt	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/results/E2-arithmetic-verification.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/results/E2-full-control-verification.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/results/control-metrics.tsv	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/results/coverage.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/results/presentation-verification.json	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/results/primary-metrics.tsv	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/scripts/analyse_results.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/scripts/build_paper.py	removed	Obsolete internal manuscript generator
+historical-execution/original/scripts/check_environment.py	removed	Internal environment inspection utility; recorded environment retained
+historical-execution/original/scripts/check_stage_transition.py	removed	Internal workflow authorization/intake tool
+historical-execution/original/scripts/check_workspace.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/scripts/e2_execution_monitor.py	removed	Internal execution monitoring
+historical-execution/original/scripts/e2_pair_baselines.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/scripts/e2_preflight.py	removed	Internal stage preflight; scientific configuration and checks retained
+historical-execution/original/scripts/freeze_e2_export.py	removed	Internal export/snapshot utility
+historical-execution/original/scripts/package_e2_results.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/scripts/prepare_e0.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/scripts/qualify_models.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/scripts/run_experiments.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/scripts/verify_e0.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/scripts/verify_e1.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/scripts/verify_e2.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/scripts/verify_e2_controls.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/scripts/verify_model_assets.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/tests/test_e1_pipeline.py	retained_or_updated	Scientific execution/analysis provenance; historical runner limitations documented
+historical-execution/original/tests/test_stage_transition.py	removed	Tests of internal workflow authorization
+historical-execution/original/tests/test_workspace_checks.py	removed	Tests of internal workflow receipts
+provenance/checkpoint-b-data-provenance.json	retained_or_updated	Identity, verification, source or release record
+provenance/checkpoint-b-verification.json	retained_or_updated	Identity, verification, source or release record
+provenance/execution-config-3b.json	retained_or_updated	Identity, verification, source or release record
+provenance/literature-evidence-map.tsv	retained_or_updated	Identity, verification, source or release record
+provenance/model-manifest-original.json	retained_or_updated	Identity, verification, source or release record
+provenance/package-review.md	retained_or_updated	Identity, verification, source or release record
+provenance/presentation-environment.lock.txt	retained_or_updated	Identity, verification, source or release record
+provenance/release-manifest.json	retained_or_updated	Identity, verification, source or release record
+provenance/reproduction-check.json	retained_or_updated	Identity, verification, source or release record
+provenance/source-files.json	retained_or_updated	Identity, verification, source or release record
+repro/inputs/design/protocol-v1.md	retained_or_updated	Verified saved-summary reconstruction code and inputs
+repro/inputs/exports/results-v1/data/derived/construct-registry.tsv	retained_or_updated	Verified saved-summary reconstruction code and inputs
+repro/inputs/exports/results-v1/data/derived/measurement-registry.tsv	retained_or_updated	Verified saved-summary reconstruction code and inputs
+repro/inputs/exports/results-v1/data/derived/prompt-panel.json	retained_or_updated	Verified saved-summary reconstruction code and inputs
+repro/inputs/exports/results-v1/results/E2-analysis-v1.json	retained_or_updated	Verified saved-summary reconstruction code and inputs
+repro/inputs/followups/esm2-3b-20261111/job-3647838/exports/results-v1/e2/results/E2-3B-analysis.json	retained_or_updated	Verified saved-summary reconstruction code and inputs
+repro/inputs/sources/source-audit.md	retained_or_updated	Verified saved-summary reconstruction code and inputs
+repro/prepare_figures.py	retained_or_updated	Verified saved-summary reconstruction code and inputs
+requirements-reproduction.txt	retained_or_updated	Documentation, reproduction requirements, or verification entry point
+supplement/build_source.py	removed	Superseded generator could overwrite author-edited supplement
+supplement/compile.sh	retained_or_updated	Supplement source or convenience PDF; formal supplement should accompany preprint
+supplement/latexmkrc	retained_or_updated	Supplement source or convenience PDF; formal supplement should accompany preprint
+supplement/main.tex	retained_or_updated	Supplement source or convenience PDF; formal supplement should accompany preprint
+verify_reproduction.py	retained_or_updated	Documentation, reproduction requirements, or verification entry point

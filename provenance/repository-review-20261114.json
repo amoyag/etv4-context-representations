@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-14",
+  "status": "private_package_reviewed_not_public_release_ready",
+  "source_identities_retained": 62,
+  "processed_tables_identical": 11,
+  "fixed_ESM_metric_rows": 30,
+  "arithmetic_and_plan_tests_passed": 8,
+  "python_syntax": "all remaining files parsed",
+  "supplement_source_matches_overleaf": true,
+  "supplement_pages": 6,
+  "supplement_render_matches_previously_inspected_six_pages": true,
+  "author_date_AI_section_removed": true,
+  "setup_workflow_obsolete_files_removed": 12,
+  "activation_files_inventoried": 711,
+  "activation_payloads_deposited": false,
+  "new_model_forwards": 0,
+  "model_or_full_activation_rerun": false,
+  "credential_scan": "explicit-source package; earlier credential screening retained; new material comprises code, manuscript source, manifests, policy audit and docs",
+  "public_release_authorized": false,
+  "limits": [
+    "private access",
+    "licences not selected",
+    "persistent archive not created",
+    "activation payload and qualification archive scope unresolved",
+    "historical full-run dependencies not portable",
+    "final venue-specific requirements pending"
+  ]
+}

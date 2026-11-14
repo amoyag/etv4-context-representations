@@ -1,0 +1,27 @@
+{
+  "total_biological_and_control_array_files": 711,
+  "sets": [
+    {
+      "model": "650m",
+      "array_files": 217,
+      "manifest": "provenance/activation-manifests/650m.json",
+      "manifest_sha256": "5b21c5b9afd21bf6bb555df5c20d178367eef8832fc8eb5d431ebdeef8d68ffd",
+      "payload_in_git": false
+    },
+    {
+      "model": "profam",
+      "array_files": 277,
+      "manifest": "provenance/activation-manifests/profam.json",
+      "manifest_sha256": "4614b625f1f3b9bbfe8cc1ae83fed581ddc643231d3a9a665dbc7de60256e48c",
+      "payload_in_git": false
+    },
+    {
+      "model": "3b",
+      "array_files": 217,
+      "manifest": "provenance/activation-manifests/3b.json",
+      "manifest_sha256": "bbb48683c66cac869e3ce8b18d3752bbd86d3f421411b87b14c2d9dfa111929a",
+      "payload_in_git": false
+    }
+  ],
+  "qualification_arrays": "Separate numerical qualification inputs/configuration/receipts are retained; complete qualification payload deposit remains to be inventoried for archival release."
+}

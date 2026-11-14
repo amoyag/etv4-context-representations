@@ -2,7 +2,7 @@
   "status": "passed",
   "scope": "saved-summary reconstruction and arithmetic; no new inference",
   "frozen_inputs": 7,
-  "historical_source_files": 73,
+  "historical_source_files": 62,
   "tables_byte_identical": 11,
   "fixed_ESM_metric_rows": 30,
   "profam_positive_matched_differences": {

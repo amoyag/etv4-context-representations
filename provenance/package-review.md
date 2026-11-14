@@ -1,3 +1,5 @@
+Historical initial-package record. Current status and superseding checks: `repository-review-20261114.json` and `../REPOSITORY-AUDIT.md`.
+
 # Private package checks — 13 November 2026
 
 The supplemental PDF has seven pages and eight tables. All pages were rendered and inspected; no clipping, missing glyphs or overfull boxes were found. The 30 typeset ESM rows match full-precision data after three-decimal formatting. Tables and numerical allowances are generated from saved inputs, not retyped. Source identity and reproduction checks are in `reproduction-check.json`.
