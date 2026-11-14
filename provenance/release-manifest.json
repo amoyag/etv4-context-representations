@@ -82,7 +82,7 @@
     },
     {
       "path": "docs/etv4-supplement.pdf",
-      "sha256": "de4b8c1b0801f8bce4f792cda7874aeb58c63891ba61e4a644beb3bcfbc6c5ad"
+      "sha256": "7139f8ed1c9fe73c606ebf7b4affeabc957c87b9bdab6b200ee127f25e047363"
     },
     {
       "path": "figures/fig1-design.pdf",
@@ -362,7 +362,7 @@
     },
     {
       "path": "provenance/final-supplement-update.json",
-      "sha256": "82d364bad5e3cc7f597c57e78a846cf8a461e438349aaec14cb27378e4285a96"
+      "sha256": "982fc01b9b90b13a8142b196dabe631d48d96f8e491ef8a17b0af40d48dbee33"
     },
     {
       "path": "provenance/literature-evidence-map.tsv",
@@ -450,7 +450,7 @@
     },
     {
       "path": "supplement/main.tex",
-      "sha256": "c908a707c5226b7040f5620699cb44b48db561d6d2580a353ee7c66a3cd94b1a"
+      "sha256": "07cf0534705c304733a3a5965852706f9b078582691da5ca81e27ae6f218b8ba"
     },
     {
       "path": "verify_reproduction.py",

@@ -5,7 +5,8 @@
   "changes": [
     "Removed under-review opening sentence",
     "Updated archived-array and reanalysis availability",
-    "Updated public repository, DOI and licence statements"
+    "Updated public repository, DOI and licence statements",
+    "Normal serif font for filenames and fully visible clickable URLs"
   ],
   "archived_snapshot": "85b2e9b",
   "archive_doi": "10.5281/zenodo.24220637",
