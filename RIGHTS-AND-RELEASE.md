@@ -10,4 +10,4 @@ Published biological measurements are attributed to Currie et al., *Nucleic Acid
 
 Model weights, installed third-party package source, source-paper PDFs, credentials and private conversations are excluded. Model identifiers and checkpoint hashes identify upstream assets without redistributing them. Numerical qualification data supporting the reported bounds are study evidence; unrelated setup smoke tests are excluded from the current tree.
 
-Public GitHub release was authorized on 14 November 2026. Activation archives are prepared locally; a Zenodo record and manuscript DOI remain pending. No preprint submission has occurred. Final citation metadata will follow confirmation of the manuscript author list and version. The archival snapshot will identify the exact Git commit it preserves.
+Public GitHub release was authorized on 14 November 2026. The activation archives and code snapshot are published at https://doi.org/10.5281/zenodo.24220637. A manuscript DOI remains pending. No preprint submission has occurred. Final citation metadata will follow confirmation of the manuscript author list and version. The archival snapshot identifies commit 85b2e9b.

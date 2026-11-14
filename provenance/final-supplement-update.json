@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-14",
+  "source": "Author-reviewed Overleaf supplement, with local administrative-status corrections",
+  "scientific_tables_unchanged": true,
+  "changes": [
+    "Removed under-review opening sentence",
+    "Updated archived-array and reanalysis availability",
+    "Updated public repository, DOI and licence statements"
+  ],
+  "archived_snapshot": "85b2e9b",
+  "archive_doi": "10.5281/zenodo.24220637",
+  "archive_files_unchanged": true
+}

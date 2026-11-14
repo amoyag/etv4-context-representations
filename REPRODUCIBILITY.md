@@ -10,7 +10,7 @@ The default command sequence in the README uses saved summaries to rebuild every
 
 Extract all three activation ZIP files into one directory (with `650m/`, `profam/`, `3b/` subdirectories). Run the command in the README with a new output directory. Each manifest must match the complete fixed plan; each array checksum, configuration hash, native origin and shape is checked. Every output field is compared with the frozen summaries, including all 107,102 numbers and all categorical results. Float comparisons use rtol=1e-12 and atol=1e-14, solely for float64/library reduction differences; these tolerances do not modify protocol floors or classifications.
 
-This path was tested against all locally held arrays on 14 November 2026. The arrays are prepared for Zenodo but not yet publicly deposited. The archive will also include the 51 original and 20 3B numerical-qualification arrays with their receipts. Their presence supports inspection of numerical floors; the portable biological/control analysis consumes the frozen floors rather than recalculating them.
+This path was tested against all locally held arrays on 14 November 2026. The arrays are openly available at https://doi.org/10.5281/zenodo.24220637. The archive also includes the 51 original and 20 3B numerical-qualification arrays with their receipts. Their presence supports inspection of numerical floors; the portable biological/control analysis consumes the frozen floors rather than recalculating them.
 
 ## Historical inference
 
@@ -20,4 +20,4 @@ Original inference dependencies are preserved in `historical-execution/original/
 
 ## Remaining release steps
 
-The author approved MIT for original code and CC BY 4.0 for derived materials and authorized public GitHub access. Complete the Zenodo deposit of prepared arrays and the repository snapshot, add its DOI/download links, and finalize manuscript citation metadata. Full model-inference portability is outside the current package; the tested activation-analysis path avoids needing inference to check the published results.
+The author approved MIT for original code and CC BY 4.0 for derived materials and authorized public GitHub access. The Zenodo deposit is published and linked. Finalize the manuscript citation after preprint posting. Full model-inference portability is outside the current package; the tested activation-analysis path avoids needing inference to check the published results.

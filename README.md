@@ -8,7 +8,7 @@ We compare two kinds of context. With ESM-2 (650M and 3B), we measure how the re
 
 This repository makes the study's comparisons, controls, positive observations and negative findings inspectable. It contains processed results, figure-generation code, historical model-execution and analysis code, input definitions, provenance records and supplementary information.
 
-**Publication status:** manuscript under author review; no preprint DOI has been assigned. This is the code and data review package for the manuscript. Original code is MIT-licensed; derived data and written materials are CC BY 4.0. The activation archive and preprint DOI remain pending.
+**Publication status:** manuscript reviewed by the author and being prepared for submission; no preprint DOI has been assigned. This is the code and data review package for the manuscript. Original code is MIT-licensed; derived data and written materials are CC BY 4.0. The supporting data and code snapshot are published in [Zenodo](https://doi.org/10.5281/zenodo.24220637). The manuscript has not yet been submitted.
 
 ## Start here
 
@@ -49,7 +49,7 @@ This reproduces the presentation and checks the saved numerical results. A porta
 
 ## Recompute results from saved activations
 
-The portable analysis uses NumPy and the recorded arrays; it does not load a protein model. The three activation ZIP files are prepared for Zenodo deposition; **their public download link is pending**. Once available, extract them into one directory so it contains `650m/`, `profam/` and `3b/`, then run:
+The portable analysis uses NumPy and the recorded arrays; it does not load a protein model. Download the three activation ZIP files from [Zenodo](https://doi.org/10.5281/zenodo.24220637) and extract them into one directory so it contains `650m/`, `profam/` and `3b/`, then run:
 
 ```sh
 .venv/bin/python repro/analyse_activations.py --arrays /path/to/activations --output /path/to/new-analysis
@@ -69,7 +69,7 @@ The command verifies all 711 array checksums and their agreement with the fixed 
 | [provenance/](provenance/) | Source hashes, activation manifests, verification and release records |
 | [supplement/](supplement/), [docs/](docs/), [figures/](figures/) | Supplemental LaTeX, review PDF and figures |
 
-The 711 biological/control activation files are saved model representations: 217 ESM-2 650M outputs, 277 ProFam outputs and 217 ESM-2 3B outputs. Their identities and checksums are recorded in [the activation manifests](provenance/activation-manifests/). Their NPZ payloads are held outside Git and are **not yet available for download from this repository or a public archive**. Model weights are not redistributed. Public archival links will be added when the corresponding records are released.
+The 711 biological/control activation files are saved model representations: 217 ESM-2 650M outputs, 277 ProFam outputs and 217 ESM-2 3B outputs. Their identities and checksums are recorded in [the activation manifests](provenance/activation-manifests/). Their NPZ payloads and 71 numerical-qualification arrays are openly available in [Zenodo](https://doi.org/10.5281/zenodo.24220637). Model weights are not redistributed.
 
 Scientific controls and numerical qualification records are retained. Machine-setup smoke tests and unrelated workflow utilities are excluded from the current tree. No new model inference was performed to prepare this repository.
 
@@ -86,6 +86,8 @@ The resulting PDF is `supplement/build/main.pdf`. The main manuscript is maintai
 
 ## Citation and reuse
 
-Citation metadata and persistent identifiers will be added to the archived release after the manuscript metadata are finalized. Until then, identify the repository URL and exact commit when referring to this review package.
+Cite the archived supporting dataset as: Moya Garcia, A. (2026). *Code and data for “Sequence and family context shape ETV4 representations in protein language models”*. Zenodo. [doi:10.5281/zenodo.24220637](https://doi.org/10.5281/zenodo.24220637). The archived code snapshot is commit `85b2e9b`; identify the Git commit separately if using later repository changes.
+
+The live supplement has updated publication/access statements. Its scientific tables and analyses are unchanged from the archived snapshot; no activation or numerical result was replaced. The preprint citation will be added after posting.
 
 Original software is licensed under [MIT](LICENSE). Original derived data, figures, supplementary information and written documentation are licensed under [CC BY 4.0](LICENSES/CC-BY-4.0.txt). Third-party inputs and model assets retain their own terms. See [rights and release status](RIGHTS-AND-RELEASE.md) and [the repository audit](REPOSITORY-AUDIT.md) for the remaining release work.
