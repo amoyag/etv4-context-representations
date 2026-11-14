@@ -1,0 +1,35 @@
+{
+  "status": "prepared locally; not deposited",
+  "biological_control_arrays": 711,
+  "qualification_arrays": 71,
+  "archives": [
+    {
+      "filename": "etv4-activations-650m.zip",
+      "bytes": 1245807672,
+      "sha256": "2a71aa11171f692ec68feca2e24ffe67c90a193bbfb583bfb29f6c7bef1ea1f2",
+      "payload_files": 218,
+      "zip_crc_passed": true
+    },
+    {
+      "filename": "etv4-activations-profam.zip",
+      "bytes": 803054710,
+      "sha256": "a40fbcd1d2348d3121b6f7ddaeea2d5e39f77cd429769a0cc20af95fbcf2c69a",
+      "payload_files": 278,
+      "zip_crc_passed": true
+    },
+    {
+      "filename": "etv4-activations-3b.zip",
+      "bytes": 2488180198,
+      "sha256": "eeea20f33c92b97df5607437e1bebeb78feda529a47f9391eff3d5fd25ee857e",
+      "payload_files": 218,
+      "zip_crc_passed": true
+    },
+    {
+      "filename": "etv4-numerical-qualification.zip",
+      "bytes": 345024322,
+      "sha256": "5f4df9048eecc4bbd7796e58124b20f5c990e861899a9dddb04935c5cdc8021a",
+      "payload_files": 79,
+      "zip_crc_passed": true
+    }
+  ]
+}

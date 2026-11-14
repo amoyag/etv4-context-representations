@@ -4,9 +4,13 @@
 
 The default command sequence in the README uses saved summaries to rebuild every displayed source table and four figure panels. The supplement tables were prepared from these same results, original run plan and prompt identities; its current LaTeX source is edited in Overleaf and synchronized deliberately. This checks the presentation and arithmetic, not how hidden states were produced.
 
-## Historical analysis from stored activations
+## Verified analysis from stored activations
 
-Original `analyse_results.py` imports `run_experiments.py` helpers, reads activation manifests and verifies file/configuration hashes. The 3B path also needs its `postprocess/` verifier and the scripts in `historical-execution/3b/scripts`. Analysis of activations needs the NPZ files named in the run manifests; these large arrays are not in Git. Previously completed arithmetic-verification receipts are included, but this packaging session has not rerun that level of analysis. A public data archive and its licence must be resolved before claiming complete downloadable reproduction.
+`repro/analyse_activations.py` is a portable NumPy-only adaptation of the two historical analysis scripts. It changes file access and command-line handling, preserving the scientific calculations and leaving the historical scripts unchanged. It never imports the model adapters, loads weights or runs inference.
+
+Extract all three activation ZIP files into one directory (with `650m/`, `profam/`, `3b/` subdirectories). Run the command in the README with a new output directory. Each manifest must match the complete fixed plan; each array checksum, configuration hash, native origin and shape is checked. Every output field is compared with the frozen summaries, including all 107,102 numbers and all categorical results. Float comparisons use rtol=1e-12 and atol=1e-14, solely for float64/library reduction differences; these tolerances do not modify protocol floors or classifications.
+
+This path was tested against all locally held arrays on 14 November 2026. The arrays are prepared for Zenodo but not yet publicly deposited. The archive will also include the 51 original and 20 3B numerical-qualification arrays with their receipts. Their presence supports inspection of numerical floors; the portable biological/control analysis consumes the frozen floors rather than recalculating them.
 
 ## Historical inference
 
@@ -14,8 +18,6 @@ The adapters require the original model checkpoints, regression weights/configur
 
 Original inference dependencies are preserved in `historical-execution/original/environment/requirements-macmini.lock.txt`. The 3B execution configuration records PyTorch/CUDA/hardware and numerical floors. The small presentation environment in `requirements-reproduction.txt` is separate. Model packages/weights and third-party papers are not vendored. No activation regeneration, fresh qualification, new model run, changed threshold or head scan is authorized by the reproduction commands above.
 
-## Public-release checks still open
+## Remaining release steps
 
-Choose licences for original code and derived data; review attribution and redistribution of UniProt-derived sequences; decide activation archival scope; replace historical host paths in a separately tested runner only if full inference portability is required; confirm final authors and citation metadata. These open release choices do not prevent the private saved-summary package from being inspected and tested now.
-
-The missing end-to-end dependencies and release actions are listed in `REPOSITORY-AUDIT.md`. The three array manifests under `provenance/activation-manifests/` identify 711 biological/control outputs; their NPZ payloads remain outside Git.
+The author approved MIT for original code and CC BY 4.0 for derived materials and authorized public GitHub access. Complete the Zenodo deposit of prepared arrays and the repository snapshot, add its DOI/download links, and finalize manuscript citation metadata. Full model-inference portability is outside the current package; the tested activation-analysis path avoids needing inference to check the published results.

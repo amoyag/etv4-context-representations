@@ -8,7 +8,7 @@ We compare two kinds of context. With ESM-2 (650M and 3B), we measure how the re
 
 This repository makes the study's comparisons, controls, positive observations and negative findings inspectable. It contains processed results, figure-generation code, historical model-execution and analysis code, input definitions, provenance records and supplementary information.
 
-**Publication status:** manuscript under author review; no preprint DOI has been assigned. This repository is currently a private review package. Public access, licences and an archival release remain pending. A private repository link does not give proposal reviewers access.
+**Publication status:** manuscript under author review; no preprint DOI has been assigned. This is the code and data review package for the manuscript. Original code is MIT-licensed; derived data and written materials are CC BY 4.0. The activation archive and preprint DOI remain pending.
 
 ## Start here
 
@@ -45,7 +45,17 @@ python3 -m venv .venv
 
 The generator reads seven frozen inputs under `repro/inputs/` and writes four figures and eleven tables under `repro/figures/` and `repro/data/`. It does not run protein models. Set `LIBERTINUS_FONT_DIR` if the Libertinus Sans OTF directory cannot be found automatically. Verification checks exact table equality, source hashes, numerical bounds and descriptive control counts. Reviewed figure PDFs are in `figures/`; regenerated PDF metadata and font rendering can vary across environments.
 
-This reproduces the presentation and checks the saved numerical results. The historical code is available for inspection, but is not yet a portable end-to-end inference or activation-analysis runner. See [the reproducibility guide](REPRODUCIBILITY.md) for external assets, workspace dependencies and the distinction between these levels of reproduction.
+This reproduces the presentation and checks the saved numerical results. A portable CPU-only activation-analysis command is also available (below). Historical model-inference code is retained for inspection; a portable end-to-end inference runner is not provided. See [the reproducibility guide](REPRODUCIBILITY.md) for external assets, workspace dependencies and the distinction between these levels of reproduction.
+
+## Recompute results from saved activations
+
+The portable analysis uses NumPy and the recorded arrays; it does not load a protein model. The three activation ZIP files are prepared for Zenodo deposition; **their public download link is pending**. Once available, extract them into one directory so it contains `650m/`, `profam/` and `3b/`, then run:
+
+```sh
+.venv/bin/python repro/analyse_activations.py --arrays /path/to/activations --output /path/to/new-analysis
+```
+
+The command verifies all 711 array checksums and their agreement with the fixed input plans/configurations. It recalculates both canonical analysis summaries and compares every saved field, including profiles, control results and classification labels. This was verified locally against **107,102 numerical values**. Small float64 comparison tolerances are software-verification tolerances; the scientific metrics and numerical floors are unchanged. See [the verification record](provenance/activation-reanalysis-verification.json).
 
 ## Data and repository contents
 
@@ -78,4 +88,4 @@ The resulting PDF is `supplement/build/main.pdf`. The main manuscript is maintai
 
 Citation metadata and persistent identifiers will be added to the archived release after the manuscript metadata are finalized. Until then, identify the repository URL and exact commit when referring to this review package.
 
-Licences for original code and derived materials have not yet been adopted. Third-party inputs and model assets retain their own terms. See [rights and release status](RIGHTS-AND-RELEASE.md) and [the repository audit](REPOSITORY-AUDIT.md) for the remaining release work.
+Original software is licensed under [MIT](LICENSE). Original derived data, figures, supplementary information and written documentation are licensed under [CC BY 4.0](LICENSES/CC-BY-4.0.txt). Third-party inputs and model assets retain their own terms. See [rights and release status](RIGHTS-AND-RELEASE.md) and [the repository audit](REPOSITORY-AUDIT.md) for the remaining release work.

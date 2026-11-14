@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-14",
+  "author_authorized_public_repository": true,
+  "licences": {
+    "original_code": "MIT",
+    "derived_data_and_written_materials": "CC-BY-4.0"
+  },
+  "historical_blobs_secret_scan": 121,
+  "potential_matches_reviewed": "Two AWS-key-pattern matches were amino-acid substrings in a derived protein sequence; no credentials identified. Pattern scan is not a guarantee.",
+  "tracked_content_review": "Prior repository-file audit retained; original execution scripts immutable; no model weights, private correspondence or credential files included.",
+  "activation_reanalysis": "all fields match; 107102 numeric values",
+  "new_model_forwards": 0,
+  "public_archive": "pending",
+  "preprint_submission": "pending author review"
+}

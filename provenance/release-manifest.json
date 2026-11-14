@@ -1,7 +1,7 @@
 {
-  "status": "private_review_package",
+  "status": "public_code_and_processed_data_release",
   "date": "2026-11-14",
-  "public_release_authorized": false,
+  "public_release_authorized": true,
   "model_forwards_during_packaging": 0,
   "files": [
     {
@@ -13,20 +13,28 @@
       "sha256": "c724d10a73c0bb3eda8ee2a5d8fe7ed1b93d83136181b318bf973a69637e6f2b"
     },
     {
+      "path": "LICENSE",
+      "sha256": "6444a9ac587a4465f2d3ae8cba1643990bad46b2cf5a255d5b404b379e1d9638"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
       "path": "README.md",
-      "sha256": "48f13c3d57607f9495b483fb5e2afd236c0048aac288ca12a9a7fa6d0b029007"
+      "sha256": "2d3c252ad21be252084d1c8f635d9226643c5c6125ed7bf4099e0d4e76304ce7"
     },
     {
       "path": "REPOSITORY-AUDIT.md",
-      "sha256": "259f9bdef5ab429c55b515652caef134a905e65a9f93a93d4c771868ebb0bfe2"
+      "sha256": "ca9d6d4eba8adddbe3e701b95ea9b3f17276da419077405d9611abecad4a01e0"
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "sha256": "fa9df8e8b1e61172af2efb03515ca4c02cea284d499311de2e3b13e68229b7e6"
+      "sha256": "9e1e3e2279fd78dff53111e927932aafdfd23aa0484bbdc03f84ef3f3911a42d"
     },
     {
       "path": "RIGHTS-AND-RELEASE.md",
-      "sha256": "9010c33bd5bc68e0fc27bf14903cd010e70526e372fecb1ac179a0078b7cb890"
+      "sha256": "4a5c6263be026333931459b35fbda4a5d4671aa34b11c5c47528888a08d2c025"
     },
     {
       "path": "data/esm-all-fixed-blocks.tsv",
@@ -313,8 +321,12 @@
       "sha256": "c0b6e330c4806667dfb234b211510a5a227207dd3be11100cd76e45945fa32c5"
     },
     {
+      "path": "provenance/activation-archive-manifest.json",
+      "sha256": "91a0e4f296e8f1ebff0517fbecf710254f882d5e2f71d7bd631b0db520e7f276"
+    },
+    {
       "path": "provenance/activation-inventory.json",
-      "sha256": "f90e6fba95189efd7fb7101d8f2e7d188bb374a2edb9e494760d516c81ce8f23"
+      "sha256": "3edd60b1dc24f932aa809f1f2db2ac036e649d226df56cad7d27b0be9c991e2b"
     },
     {
       "path": "provenance/activation-manifests/3b.json",
@@ -327,6 +339,10 @@
     {
       "path": "provenance/activation-manifests/profam.json",
       "sha256": "4614b625f1f3b9bbfe8cc1ae83fed581ddc643231d3a9a665dbc7de60256e48c"
+    },
+    {
+      "path": "provenance/activation-reanalysis-verification.json",
+      "sha256": "daa1e09bb5e68c442ae8fa661248da77ffe407f5582aadc6022ce30b42c44994"
     },
     {
       "path": "provenance/checkpoint-b-data-provenance.json",
@@ -361,6 +377,10 @@
       "sha256": "2422866a085be35dd5a4adb4a35c09d72e6d229d2cbf0b7334960096272d85b5"
     },
     {
+      "path": "provenance/public-release-check.json",
+      "sha256": "5316d0424d031d1724d6972611aca14eed6a1af0f85d4350afae5b4638d0eb44"
+    },
+    {
       "path": "provenance/repository-file-audit.tsv",
       "sha256": "b475dcb1c82bbe6e9ddd04c0aaf5b893aa441beb310fc65108c615acd9c083df"
     },
@@ -375,6 +395,10 @@
     {
       "path": "provenance/source-files.json",
       "sha256": "904b79b360e254ad7747b0b4dcb3e3c5eae1cc3f3a2e6b7c4d6efe958d34c03f"
+    },
+    {
+      "path": "repro/analyse_activations.py",
+      "sha256": "574a15cf3c8bf5abd6c3ee6933afc77f11ff9d94255ace887144d693657d15fd"
     },
     {
       "path": "repro/inputs/design/protocol-v1.md",

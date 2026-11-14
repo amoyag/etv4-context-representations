@@ -1,5 +1,10 @@
 # Repository and sharing audit — 14 November 2026
 
+## Subsequent release update
+
+The author has approved MIT/CC BY 4.0 and authorized public GitHub access. The licences are now applied. A portable activation-analysis entry point has passed comparison of all fields (107,102 numeric values) against both frozen summaries. All 711 activation checksums match. Archives and numerical qualification data are being prepared for Zenodo; deposition and final manuscript citation remain pending. The original audit below is retained as a dated record of the gaps before these changes.
+
+
 ## Conclusion
 
 The private repository is a tested package for reproducing the manuscript presentation from saved results. It is not yet a complete public study archive. All tracked files were inventoried and assigned a disposition in `provenance/repository-file-audit.tsv`; source identities, script imports/entry points, reproduction checks, supplemental source/PDF and release documentation were examined. This is not a new model run or independent scientific review.

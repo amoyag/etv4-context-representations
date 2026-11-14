@@ -23,5 +23,6 @@
       "payload_in_git": false
     }
   ],
-  "qualification_arrays": "Separate numerical qualification inputs/configuration/receipts are retained; complete qualification payload deposit remains to be inventoried for archival release."
+  "qualification_arrays": "71 numerical qualification arrays (51 original, 20 3B), packaged with receipts; archive manifest records sizes/checksums. Public Zenodo deposit pending.",
+  "portable_reanalysis": "repro/analyse_activations.py; all fields verified against frozen summaries"
 }
