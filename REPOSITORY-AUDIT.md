@@ -1,5 +1,13 @@
 # Repository and sharing audit — 14 November 2026
 
+## Current status — 16 November 2026
+
+The repository is public and MIT/CC BY 4.0 licensing is in place. The code snapshot and activation archives are published at [Zenodo](https://doi.org/10.5281/zenodo.24220637); the archived code commit is `85b2e9b`. A portable CPU-only analysis from saved activations was verified on 14 November against all 107,102 saved numerical values and all 711 biological/control activation checksums. See [reproducibility levels](REPRODUCIBILITY.md) and [rights and release status](RIGHTS-AND-RELEASE.md).
+
+The author now reports submission to bioRxiv; posting and the preprint DOI/link remain pending. The expanded [README](README.md) explains the study without requiring access to the manuscript and includes PNG previews rendered from the existing figure PDFs. This documentation update changes no scientific results. Full end-to-end model-inference portability remains outside the package.
+
+**The sections below are the historical audit of 14 November, preserved as written. References there to private access, missing licences, an unpublished archive or no selected venue describe earlier states; they are not current release blockers.**
+
 ## Subsequent release update
 
 The author has approved MIT/CC BY 4.0 and authorized public GitHub access. The licences are now applied. A portable activation-analysis entry point has passed comparison of all fields (107,102 numeric values) against both frozen summaries. All 711 activation checksums match. Archives and numerical qualification data are being prepared for Zenodo; deposition and final manuscript citation remain pending. The original audit below is retained as a dated record of the gaps before these changes.
